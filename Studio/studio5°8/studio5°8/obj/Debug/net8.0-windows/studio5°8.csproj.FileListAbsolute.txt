@@ -1,0 +1,17 @@
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\studio5°8.exe
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\studio5°8.deps.json
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\studio5°8.runtimeconfig.json
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\studio5°8.dll
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\studio5°8.pdb
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\obj\Debug\net8.0-windows\studio5_8.Form1.resources
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\obj\Debug\net8.0-windows\studio5°8.csproj.GenerateResource.cache
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\obj\Debug\net8.0-windows\studio5°8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\obj\Debug\net8.0-windows\studio5°8.AssemblyInfoInputs.cache
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\obj\Debug\net8.0-windows\studio5°8.AssemblyInfo.cs
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\obj\Debug\net8.0-windows\studio5°8.csproj.CoreCompileInputs.cache
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\obj\Debug\net8.0-windows\studio5°8.dll
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\obj\Debug\net8.0-windows\refint\studio5°8.dll
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\obj\Debug\net8.0-windows\studio5°8.pdb
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\obj\Debug\net8.0-windows\studio5°8.genruntimeconfig.cache
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\obj\Debug\net8.0-windows\ref\studio5°8.dll
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\obj\Debug\net8.0-windows\studio5_8.Properties.Resources.resources
