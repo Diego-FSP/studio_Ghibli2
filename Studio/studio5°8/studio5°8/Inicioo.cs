@@ -3,6 +3,7 @@ namespace studio5_8
 {
     public partial class Inicioo : Form
     {
+        Menu menu;
         public Inicioo()
         {
             InitializeComponent();
@@ -22,8 +23,15 @@ namespace studio5_8
 
         private void button1_Click(object sender, EventArgs e)
         {
-            conexion bd= new conexion();
+            Conexion bd = new Conexion(textBox1.Text, textBox2.Text);
             bd.establecerConexion();
+            menu = new Menu(bd);
+            menu.Show();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

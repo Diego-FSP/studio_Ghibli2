@@ -1,6 +1,6 @@
 namespace Peli;
 
-public class Pelicula
+public class PeliculaCE
 {
     public int IdPelicula { get; set; }
 
