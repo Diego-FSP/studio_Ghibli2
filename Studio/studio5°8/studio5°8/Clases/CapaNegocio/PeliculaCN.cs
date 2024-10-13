@@ -10,7 +10,7 @@ using Peli;
 
 namespace studio5_8.Clases.CapaNegocio
 {
-    class PeliculaCN
+public class PeliculaCN
     {
         PeliculaDAO PeliDAO;
         

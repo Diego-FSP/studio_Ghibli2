@@ -31,7 +31,7 @@ namespace studio5_8.Clases.CapaDatos
         public DataTable ListaPeli()
         {
             MySqlConnection Mc = Peliculas.conex;
-            MySqlDataAdapter DA = new MySqlDataAdapter("Select id_pelicula AS IDPelicula, nombre AS Nombre, fecha_estreno AS FechaEstreno, Duracion  from peliculas order by id_pelicula asc", Mc);
+            MySqlDataAdapter DA = new MySqlDataAdapter("Select id_pelicula AS IDPelicula, nombre AS Nombre  from peliculas order by id_pelicula asc", Mc);
             DA.Fill(dt);
             Mc.Close();
             return dt;
@@ -40,7 +40,6 @@ namespace studio5_8.Clases.CapaDatos
         {
             // nos conectamos
             MySqlConnection cn = Peliculas.conex;
-            cn.Open();
             //Creamos el cmd
             MySqlCommand cmd = new MySqlCommand();
             cmd.Connection = cn;
@@ -62,6 +61,7 @@ namespace studio5_8.Clases.CapaDatos
 
             try
             {
+                cmd.Connection.Open();
                 cmd.ExecuteNonQuery();
             }
             catch(Exception)

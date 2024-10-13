@@ -14,15 +14,26 @@ namespace studio5_8
 {
     public partial class Menu : Form
     {
-        
+
         PeliculaCN negocios;
         public Menu(Conexion conexion)
         {
             InitializeComponent();
             negocios = new PeliculaCN(conexion);
+            //DataGridViewTextBoxColumn n = negocios.ListaPeli().Columns.;
             dataGridView1.DataSource = negocios.ListaPeli();
+
         }
 
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
 
+        }
+
+        private void NuevaPeli_Click(object sender, EventArgs e)
+        {
+            NuevaPelicula nueva = new NuevaPelicula(negocios);
+            nueva.Show();
+        }
     }
 }

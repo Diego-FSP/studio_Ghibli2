@@ -37,10 +37,11 @@
             // 
             dataGridView1.BackgroundColor = SystemColors.ActiveCaption;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(391, 39);
+            dataGridView1.Location = new Point(437, 39);
             dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(384, 283);
+            dataGridView1.Size = new Size(338, 280);
             dataGridView1.TabIndex = 0;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // NuevaPeli
             // 
@@ -50,6 +51,7 @@
             NuevaPeli.TabIndex = 1;
             NuevaPeli.Text = "Agregar";
             NuevaPeli.UseVisualStyleBackColor = true;
+            NuevaPeli.Click += NuevaPeli_Click;
             // 
             // Menu
             // 
