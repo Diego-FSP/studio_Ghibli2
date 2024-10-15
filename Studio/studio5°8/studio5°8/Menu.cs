@@ -35,5 +35,16 @@ namespace studio5_8
             NuevaPelicula nueva = new NuevaPelicula(negocios);
             nueva.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            dataGridView1.DataSource = negocios.ListaPeli();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            negocios.EliminarP(int.Parse(textBox1.Text));
+            textBox1.Text = " ";
+        }
     }
 }

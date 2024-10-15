@@ -78,6 +78,7 @@
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(156, 23);
             textBox2.TabIndex = 4;
+            textBox2.UseSystemPasswordChar = true;
             // 
             // Inicioo
             // 

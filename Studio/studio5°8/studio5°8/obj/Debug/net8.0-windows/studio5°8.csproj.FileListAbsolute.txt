@@ -66,3 +66,5 @@ C:\Users\Diego Fabricio\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio
 C:\Users\Diego Fabricio\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\obj\Debug\net8.0-windows\ref\studio5°8.dll
 C:\Users\Diego Fabricio\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\obj\Debug\net8.0-windows\studio5_8.Menu.resources
 C:\Users\Diego Fabricio\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\obj\Debug\net8.0-windows\studio5_8.NuevaPelicula.resources
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\obj\Debug\net8.0-windows\studio5_8.Menu.resources
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\obj\Debug\net8.0-windows\studio5_8.NuevaPelicula.resources

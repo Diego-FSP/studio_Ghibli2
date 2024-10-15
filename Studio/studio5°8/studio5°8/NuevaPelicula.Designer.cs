@@ -312,7 +312,7 @@
             Controls.Add(textBox1);
             Controls.Add(label1);
             Name = "NuevaPelicula";
-            Text = "Form1";
+            Text = "nueva Peli";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();

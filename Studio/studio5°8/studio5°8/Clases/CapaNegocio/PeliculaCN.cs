@@ -13,7 +13,6 @@ namespace studio5_8.Clases.CapaNegocio
 public class PeliculaCN
     {
         PeliculaDAO PeliDAO;
-        
        
         public PeliculaCN(Conexion c)
         {
@@ -27,6 +26,15 @@ public class PeliculaCN
         public void nuevaPeli(PeliculaCE p)
         {
             PeliDAO.AgregarPeli(p);
+        }
+        public int CantidadP()
+        {
+            int v=PeliDAO.CantP();
+            return v;
+        }
+        public void EliminarP(int p)
+        {
+            PeliDAO.EliminarPeli(p);
         }
     }
 }

@@ -30,6 +30,7 @@ namespace studio5_8.Clases.CapaDatos
         */
         public DataTable ListaPeli()
         {
+            dt = new DataTable();
             MySqlConnection Mc = Peliculas.conex;
             MySqlDataAdapter DA = new MySqlDataAdapter("Select id_pelicula AS IDPelicula, nombre AS Nombre  from peliculas order by id_pelicula asc", Mc);
             DA.Fill(dt);
@@ -43,7 +44,7 @@ namespace studio5_8.Clases.CapaDatos
             //Creamos el cmd
             MySqlCommand cmd = new MySqlCommand();
             cmd.Connection = cn;
-            cmd.CommandText = "agregarP";
+            cmd.CommandText = "agregarPL";
             cmd.CommandType = CommandType.StoredProcedure;
             //Agregamos los parametros
             //cmd.Parameters.Add("@",).Value=p;
@@ -69,12 +70,21 @@ namespace studio5_8.Clases.CapaDatos
                 throw;
             }
         }
-        /*
-        public void EliminarPeli()
+        public int CantP()
+        {
+            dt = new DataTable();
+            int p = 0;
+            MySqlConnection Mc = Peliculas.conex;
+            MySqlDataAdapter DA = new MySqlDataAdapter("Select id_pelicula AS IDPelicula, nombre AS Nombre from peliculas", Mc);
+            DA.Fill(dt);
+            p= dt.Rows.Count;
+            return p;
+        }
+        
+        public void EliminarPeli(int ID)
         {
             // nos conectamos
-            MySqlConnection cn = Peliculas.establecerConexion();
-            cn.Open();
+            MySqlConnection cn = Peliculas.conex;
             //Creamos el cmd
             MySqlCommand cmd = new MySqlCommand();
             cmd.Connection = cn;
@@ -82,8 +92,17 @@ namespace studio5_8.Clases.CapaDatos
             cmd.CommandType = CommandType.StoredProcedure;
             //Agregamos los parametros
             //cmd.Parameters.Add("@",).Value=p;
-            cmd.Parameters.Add("@unidpelicula", MySqlDbType.Int32).Value = p.IdPelicula;
+            cmd.Parameters.Add("@unidpelicula", MySqlDbType.Int32).Value = ID;
+            try
+            {
+                cmd.Connection.Open();
+                cmd.ExecuteNonQuery();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            cmd.Connection.Close();
         }
-        */
     }
 }

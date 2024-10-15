@@ -7,6 +7,8 @@ namespace studio5_8.Clases.CapaDatos;
 
 public class Conexion
 {
+    string cadenaConexion;// "server=" + servidor + ";" + "port=" + puerto + ";" + "user id=" + usuario + ";" + "password=" + password + ";" + "database=" + bd + ";";
+
     public MySqlConnection conex = new MySqlConnection();
     static string servidor = "Localhost";
     static string bd = "studio";
@@ -24,7 +26,7 @@ public class Conexion
     {
         cadenaConexion = "server=" + servidor + ";" + "port=" + puerto + ";" + "user id=" + usuario + ";" + "password=" + password + ";" + "database=" + bd + ";";
     }
-    string cadenaConexion;// "server=" + servidor + ";" + "port=" + puerto + ";" + "user id=" + usuario + ";" + "password=" + password + ";" + "database=" + bd + ";";
+
     public MySqlConnection establecerConexion()
     {
         try
