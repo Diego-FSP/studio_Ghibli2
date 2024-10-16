@@ -40,19 +40,19 @@
             // 
             // dataGridView1
             // 
-            dataGridView1.BackgroundColor = SystemColors.ActiveCaption;
+            dataGridView1.BackgroundColor = Color.FromArgb(121, 134, 69);
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(437, 39);
+            dataGridView1.Location = new Point(159, 103);
             dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(338, 280);
+            dataGridView1.Size = new Size(492, 280);
             dataGridView1.TabIndex = 0;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // NuevaPeli
             // 
-            NuevaPeli.Location = new Point(437, 348);
+            NuevaPeli.Location = new Point(159, 389);
             NuevaPeli.Name = "NuevaPeli";
-            NuevaPeli.Size = new Size(75, 23);
+            NuevaPeli.Size = new Size(98, 49);
             NuevaPeli.TabIndex = 1;
             NuevaPeli.Text = "Agregar";
             NuevaPeli.UseVisualStyleBackColor = true;
@@ -60,9 +60,9 @@
             // 
             // button1
             // 
-            button1.Location = new Point(700, 348);
+            button1.Location = new Point(535, 389);
             button1.Name = "button1";
-            button1.Size = new Size(75, 23);
+            button1.Size = new Size(116, 49);
             button1.TabIndex = 2;
             button1.Text = "Actualizar";
             button1.UseVisualStyleBackColor = true;
@@ -70,7 +70,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(24, 296);
+            button2.Location = new Point(301, 74);
             button2.Name = "button2";
             button2.Size = new Size(75, 23);
             button2.TabIndex = 3;
@@ -80,7 +80,8 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(132, 297);
+            textBox1.BackColor = Color.FromArgb(242, 238, 215);
+            textBox1.Location = new Point(456, 74);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(33, 23);
             textBox1.TabIndex = 4;
@@ -88,17 +89,20 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = Color.FromArgb(242, 238, 215);
             label1.Font = new Font("Segoe UI", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(120, 9);
+            label1.ForeColor = Color.Black;
+            label1.Location = new Point(255, 9);
             label1.Name = "label1";
             label1.Size = new Size(280, 37);
             label1.TabIndex = 5;
             label1.Text = "Menu Peliculas GHIBLI";
+            label1.Click += label1_Click;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(105, 300);
+            label2.Location = new Point(429, 78);
             label2.Name = "label2";
             label2.Size = new Size(21, 15);
             label2.TabIndex = 6;
@@ -108,6 +112,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(211, 234, 152);
             ClientSize = new Size(800, 450);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -118,6 +123,7 @@
             Controls.Add(dataGridView1);
             Name = "Menu";
             Text = "Menu";
+            Load += Menu_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();

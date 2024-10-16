@@ -8,7 +8,14 @@ namespace studio5_8.Clases.CapaDatos;
 public class Conexion
 {
     string cadenaConexion;// "server=" + servidor + ";" + "port=" + puerto + ";" + "user id=" + usuario + ";" + "password=" + password + ";" + "database=" + bd + ";";
-
+    bool Entro=false;
+    public bool E
+    {
+        get
+        {
+            return Entro;
+        }
+    }
     public MySqlConnection conex = new MySqlConnection();
     static string servidor = "Localhost";
     static string bd = "studio";
@@ -34,10 +41,11 @@ public class Conexion
             conex.ConnectionString = cadenaConexion;
             conex.Open();
             MessageBox.Show("Se logro a la base de Datos Correctamete");
+            Entro=true;
         }
         catch (MySqlException e)
         {
-            MessageBox.Show("No se pudo conectar la base de datos, error: " + e.ToString());
+            MessageBox.Show("No se pudo conectar la base de datos, vuelva a intentar");
         }
         return conex;
     }

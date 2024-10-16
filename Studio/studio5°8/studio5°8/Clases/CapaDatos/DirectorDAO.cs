@@ -10,13 +10,13 @@ using Peli;
 
 namespace studio5_8.Clases.CapaDatos
 {
-    internal class PeliculaDAO
+    internal class DirectorDAO
     {
         DataTable dt = new DataTable();
-        Conexion Peliculas = new Conexion();
-        public PeliculaDAO(Conexion c) //DataAdapter
+        Conexion Directores = new Conexion();
+        public DirectorDAO(Conexion c) //DataAdapter
         {
-            Peliculas = c;
+            Directores = c;
         }
         /*
         PeliculaDAO() //DataAdapter
@@ -28,15 +28,16 @@ namespace studio5_8.Clases.CapaDatos
             Peliculas = new conexion( u, c);
         }
         */
-        public DataTable ListaPeli()
+        public DataTable ListaDirec()
         {
             dt = new DataTable();
-            MySqlConnection Mc = Peliculas.conex;
-            MySqlDataAdapter DA = new MySqlDataAdapter("Select id_pelicula AS IDPelicula, nombre AS Nombre, genero AS Genero  from peliculas order by id_pelicula asc", Mc);
+            MySqlConnection Mc = Directores.conex;
+            MySqlDataAdapter DA = new MySqlDataAdapter("Select *  from Director order by id_Director asc", Mc);
             DA.Fill(dt);
             Mc.Close();
             return dt;
         }
+        /*
         public void AgregarPeli(PeliculaCE p)
         {
             // nos conectamos
@@ -104,5 +105,6 @@ namespace studio5_8.Clases.CapaDatos
             }
             cmd.Connection.Close();
         }
+        */
     }
 }
