@@ -1,8 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\studio5\u00B08"
+    "\\studio5\u00B08",
+    "\\studio5\u00B08\\Clases",
+    "\\studio5\u00B08\\Clases\\CapaDatos",
+    "\\studio5\u00B08\\Clases\\CapaEntidad",
+    "\\studio5\u00B08\\Clases\\CapaNegocio"
   ],
-  "SelectedNode": "\\studio5\u00B08\\Form1.Designer.cs",
+  "SelectedNode": "\\studio5\u00B08.sln",
   "PreviewInSolutionExplorer": false
 }

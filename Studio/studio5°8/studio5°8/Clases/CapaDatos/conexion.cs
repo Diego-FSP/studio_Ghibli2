@@ -45,7 +45,7 @@ public class Conexion
         }
         catch (MySqlException e)
         {
-            MessageBox.Show("No se pudo conectar la base de datos, vuelva a intentar");
+            MessageBox.Show("No se pudo conectar la base de datos, vuelva a intentar" + e);
         }
         return conex;
     }

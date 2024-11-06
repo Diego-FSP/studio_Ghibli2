@@ -35,7 +35,9 @@
             textBox2 = new TextBox();
             dataGridView1 = new DataGridView();
             label3 = new Label();
+            pictureBox1 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // button1
@@ -109,12 +111,23 @@
             label3.Text = "Inicia Sesion";
             label3.Click += label3_Click;
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.icono;
+            pictureBox1.Location = new Point(0, 1);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(55, 56);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 7;
+            pictureBox1.TabStop = false;
+            // 
             // Inicioo
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(211, 238, 152);
             ClientSize = new Size(589, 325);
+            Controls.Add(pictureBox1);
             Controls.Add(label3);
             Controls.Add(textBox2);
             Controls.Add(label2);
@@ -125,6 +138,7 @@
             Name = "Inicioo";
             Text = "Iniciar Secion";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -138,5 +152,6 @@
         private TextBox textBox2;
         private DataGridView dataGridView1;
         private Label label3;
+        private PictureBox pictureBox1;
     }
 }

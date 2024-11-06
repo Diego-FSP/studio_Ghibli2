@@ -35,17 +35,22 @@
             textBox1 = new TextBox();
             label1 = new Label();
             label2 = new Label();
+            info = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // dataGridView1
             // 
+            dataGridView1.AllowUserToAddRows = false;
+            dataGridView1.AllowUserToDeleteRows = false;
             dataGridView1.BackgroundColor = Color.FromArgb(121, 134, 69);
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(159, 103);
+            dataGridView1.Location = new Point(109, 103);
             dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(492, 280);
+            dataGridView1.ReadOnly = true;
+            dataGridView1.Size = new Size(601, 280);
             dataGridView1.TabIndex = 0;
+            dataGridView1.CellClick += dataGridView1_CellContentClick;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // NuevaPeli
@@ -108,12 +113,24 @@
             label2.TabIndex = 6;
             label2.Text = "ID:";
             // 
+            // info
+            // 
+            info.Location = new Point(358, 389);
+            info.Name = "info";
+            info.Size = new Size(105, 49);
+            info.TabIndex = 7;
+            info.Text = "Informacion";
+            info.UseVisualStyleBackColor = true;
+            info.Visible = false;
+            info.Click += info_Click;
+            // 
             // Menu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(211, 234, 152);
             ClientSize = new Size(800, 450);
+            Controls.Add(info);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(textBox1);
@@ -138,5 +155,6 @@
         private TextBox textBox1;
         private Label label1;
         private Label label2;
+        private Button info;
     }
 }

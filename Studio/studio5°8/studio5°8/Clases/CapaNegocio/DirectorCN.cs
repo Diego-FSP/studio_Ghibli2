@@ -13,7 +13,11 @@ namespace studio5_8.Clases.CapaNegocio
 public class DirectorCN
     {
         DirectorDAO DirecDAO;
-       
+        
+        public string nombreD(int ID)
+        {
+            return DirecDAO.Direc(ID);
+        }
         public DirectorCN(Conexion c)
         {
             DirecDAO = new DirectorDAO(c);

@@ -32,10 +32,20 @@ namespace studio5_8.Clases.CapaDatos
         {
             dt = new DataTable();
             MySqlConnection Mc = Directores.conex;
-            MySqlDataAdapter DA = new MySqlDataAdapter("Select *  from Director order by id_Director asc", Mc);
+            MySqlDataAdapter DA = new MySqlDataAdapter("Select concat(nombre,' ',Apellido) AS Director  from Director order by id_Director asc", Mc);
             DA.Fill(dt);
             Mc.Close();
             return dt;
+        }
+        public string Direc(int d)
+        {
+            dt = new DataTable();
+            MySqlConnection Mc = Directores.conex;
+            MySqlDataAdapter DA = new MySqlDataAdapter("Select concat(nombre,' ',Apellido) AS Director  from Director order by id_Director asc", Mc);
+            DA.Fill(dt);
+            Mc.Close();
+            string nombre = dt.Rows[d - 1]["Director"].ToString();
+            return nombre;
         }
         /*
         public void AgregarPeli(PeliculaCE p)

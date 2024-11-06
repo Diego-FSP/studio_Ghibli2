@@ -36,5 +36,9 @@ public class PeliculaCN
         {
             PeliDAO.EliminarPeli(p);
         }
+        public DataTable infoPeli(int p)
+        {
+            return PeliDAO.DatosPeli(p);
+        }
     }
 }

@@ -28,11 +28,21 @@ namespace studio5_8.Clases.CapaDatos
             Peliculas = new conexion( u, c);
         }
         */
+        public DataTable DatosPeli(int id)
+        {
+            dt = new DataTable();
+            MySqlConnection Mc = Peliculas.conex;
+            MySqlDataAdapter DA = new MySqlDataAdapter("Select id_pelicula, id_estudio, id_director, nombre, fecha_estreno, fecha_creacion, Duracion, genero, presupuesto, calificacion, Programa_stilo, descripcion, portada from peliculas where id_pelicula=" + id, Mc);
+            DA.Fill(dt);
+            Mc.Close();
+            return dt;
+        }
+
         public DataTable ListaPeli()
         {
             dt = new DataTable();
             MySqlConnection Mc = Peliculas.conex;
-            MySqlDataAdapter DA = new MySqlDataAdapter("Select id_pelicula AS IDPelicula, nombre AS Nombre, genero AS Genero  from peliculas order by id_pelicula asc", Mc);
+            MySqlDataAdapter DA = new MySqlDataAdapter("Select id_pelicula AS IDPelicula, nombre AS Nombre, genero AS Genero, calificacion AS Calificacion  from peliculas order by id_pelicula asc", Mc);
             DA.Fill(dt);
             Mc.Close();
             return dt;
@@ -55,7 +65,7 @@ namespace studio5_8.Clases.CapaDatos
             cmd.Parameters.Add("@unfechaestreno",MySqlDbType.Date).Value = p.FechaEstreno;
             cmd.Parameters.Add("@unfechacreacion",MySqlDbType.Date).Value = p.FechaCreacion;
             cmd.Parameters.Add("@unDuracion",MySqlDbType.VarChar).Value = p.Duracion;
-            cmd.Parameters.Add("@ungenero",MySqlDbType.VarChar).Value = p.Duracion;
+            cmd.Parameters.Add("@ungenero",MySqlDbType.VarChar).Value = p.Genero;
             cmd.Parameters.Add("@unpresupuesto",MySqlDbType.Double).Value = p.Presupuesto;
             cmd.Parameters.Add("@uncalificacion",MySqlDbType.VarChar).Value = p.Calificacion;
             cmd.Parameters.Add("@unprogramastilo",MySqlDbType.VarChar).Value = p.ProgramaEstilo;

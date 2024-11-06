@@ -20,15 +20,16 @@ namespace studio5_8
     {
         PeliculaCN conexion;
         DirectorCN director;
-        string[] Generos = {"Acción","Animación","Aventuras","Bélico","Biográfico","Ciencia ficción","Comedia","Documental","Drama","Erótico","Espionaje","Fantástico","Histórico","Mudo","Musical","Negro Policíaco","Suspense","Terror"};
+        string[] Generos = { "Acción", "Animación", "Aventuras", "Bélico", "Biográfico", "Ciencia ficción", "Comedia", "Documental", "Drama", "Erótico", "Espionaje", "Fantástico", "Histórico", "Mudo", "Musical", "Negro Policíaco", "Suspense", "Terror" };
         public NuevaPelicula(Conexion conex)
         {
-            
+
             DataTable dt = new DataTable();
             InitializeComponent();
             conexion = new PeliculaCN(conex);
             director = new DirectorCN(conex);
-            dataGridView1.DataSource = director.ListaDirec();
+            //direc.DataSource = director.ListaDirec();
+            
             /*
             MySqlDataAdapter DA = new MySqlDataAdapter("Select id_pelicula AS IDPelicula, nombre AS Nombre  from peliculas order by id_pelicula asc", );
             DA.Fill(dt);
@@ -39,41 +40,41 @@ namespace studio5_8
         {
             try
             {
-                int[] fc = { int.Parse(d1.Text), int.Parse(m1.Text), int.Parse(a1.Text) };
-                int[] fe = { int.Parse(d1.Text), int.Parse(m2.Text), int.Parse(a2.Text) };
-                
+                int[] fc = { int.Parse(diaC.Text), int.Parse(mesC.Text), int.Parse(AñoC.Text) };
+                int[] fe = { int.Parse(diaE.Text), int.Parse(mesE.Text), int.Parse(anioE.Text) };
+
                 PeliculaCE pelicula = new PeliculaCE
                 {
                     idStudio = 1,
                     IdPelicula = conexion.CantidadP() + 1,
                     Nombre = textBox1.Text,
-                    director = int.Parse(textBox2.Text),
+                    director = direc.SelectedIndex,
                     FechaCreacion = fecha(fc),
                     FechaEstreno = fecha(fe),
-                    Duracion = textBox5.Text,
-                    Genero = Generos[ comboBox1.SelectedIndex].ToString(),
+                    Duracion = comboBox3.Text + "H " + comboBox4.Text + "m",
+                    Genero = comboBox2.Text,
                     Presupuesto = int.Parse(textBox7.Text),
-                    Calificacion = textBox8.Text + "/10",
-                    ProgramaEstilo = textBox9.Text
+                    Calificacion = comboBox1.Text + "/10",
+                    ProgramaEstilo = comboBox5.Text
                 };
-
                 conexion.nuevaPeli(pelicula);
                 MessageBox.Show("Se Agrego la Pelicula Correctamente");
                 textBox1.Text = "";
-                textBox2.Text = "";
-                textBox5.Text = "";
+                direc.Text = "";
+                comboBox3.Text = "";
+                comboBox4.Text = "";
                 comboBox1.Text = "";
                 textBox7.Text = "";
-                textBox8.Text = "";
-                textBox9.Text = "";
-                d1.Text = textBox1.Text;
-                d2.Text = textBox2.Text;
-                m1.Text = textBox1.Text;
-                m2.Text = textBox2.Text;
-                a1.Text = textBox1.Text;
-                a2.Text = textBox2.Text;
+                comboBox2.Text = "";
+                comboBox5.Text = "";
+                diaC.Text = textBox1.Text;
+                diaE.Text = direc.Text;
+                mesC.Text = textBox1.Text;
+                mesE.Text = direc.Text;
+                AñoC.Text = textBox1.Text;
+                anioE.Text = direc.Text;
             }
-            catch(Exception)
+            catch (Exception)
             {
 
                 MessageBox.Show("No se agrego Pelicula");
@@ -113,6 +114,41 @@ namespace studio5_8
         }
 
         private void a1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void textBox8_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox5_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox5_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void direc_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
