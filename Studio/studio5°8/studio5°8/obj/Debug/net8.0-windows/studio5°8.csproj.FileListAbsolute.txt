@@ -164,3 +164,25 @@ C:\Users\Diego Fabricio\Desktop\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\
 C:\Users\Diego Fabricio\Desktop\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\TOTOROOOO.jpg
 C:\Users\Diego Fabricio\Desktop\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\VientoLevanta.jpg
 C:\Users\Diego Fabricio\Desktop\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\Yamada.jpg
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\Amapolas.jpg
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\aretty.jpg
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\chihiro.png
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\CuentosTerramar.jpg
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\Earwing y la bruja.jpg
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\ELCASTILLOAMBULANTE.jpg
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\escucharMar.jpg
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\haru.jpg
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\kaguya.jpg
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\KIKI.jpg
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\LaprincesaMononoke.jpg
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\luciernagas.jpg
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\MARNIE.jpg
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\Nausicaaa_delValle.jpg
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\Pompoko.jpg
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\Ponyo.jpg
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\porco rosso.jpg
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\Recuerdos del ayer.jpg
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\Susurros.jpg
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\TOTOROOOO.jpg
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\VientoLevanta.jpg
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\Yamada.jpg

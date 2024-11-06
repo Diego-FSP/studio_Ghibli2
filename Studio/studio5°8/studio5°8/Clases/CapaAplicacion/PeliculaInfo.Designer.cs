@@ -37,6 +37,10 @@
             trama = new Label();
             Poster = new PictureBox();
             pictureBox1 = new PictureBox();
+            button1 = new Button();
+            label1 = new Label();
+            label2 = new Label();
+            label3 = new Label();
             ((System.ComponentModel.ISupportInitialize)Poster).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -45,16 +49,18 @@
             // 
             nombre.AutoSize = true;
             nombre.Font = new Font("Segoe UI", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            nombre.Location = new Point(270, 9);
+            nombre.Location = new Point(275, 9);
             nombre.Name = "nombre";
             nombre.Size = new Size(274, 37);
             nombre.TabIndex = 0;
             nombre.Text = "nombre de la pelicula";
-            nombre.TextAlign = ContentAlignment.MiddleCenter;
+            nombre.TextAlign = ContentAlignment.TopCenter;
+            nombre.Click += nombre_Click;
             // 
             // id
             // 
             id.AutoSize = true;
+            id.BackColor = Color.FromArgb(242, 238, 215);
             id.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             id.Location = new Point(12, 9);
             id.Name = "id";
@@ -65,8 +71,9 @@
             // director
             // 
             director.AutoSize = true;
+            director.BackColor = Color.White;
             director.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            director.Location = new Point(12, 91);
+            director.Location = new Point(90, 87);
             director.Name = "director";
             director.Size = new Size(73, 21);
             director.TabIndex = 2;
@@ -75,8 +82,9 @@
             // duracion
             // 
             duracion.AutoSize = true;
+            duracion.BackColor = Color.White;
             duracion.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            duracion.Location = new Point(12, 131);
+            duracion.Location = new Point(90, 122);
             duracion.Name = "duracion";
             duracion.Size = new Size(80, 21);
             duracion.TabIndex = 3;
@@ -84,18 +92,21 @@
             // 
             // Descripcion
             // 
+            Descripcion.BackColor = Color.FromArgb(242, 238, 215);
             Descripcion.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Descripcion.Location = new Point(78, 247);
+            Descripcion.Location = new Point(78, 260);
             Descripcion.Name = "Descripcion";
             Descripcion.Size = new Size(322, 176);
             Descripcion.TabIndex = 4;
             Descripcion.UseVisualStyleBackColor = false;
+            Descripcion.Click += Descripcion_Click;
             // 
             // Genero
             // 
             Genero.AutoSize = true;
+            Genero.BackColor = Color.White;
             Genero.Font = new Font("Segoe UI", 12F);
-            Genero.Location = new Point(12, 171);
+            Genero.Location = new Point(90, 158);
             Genero.Name = "Genero";
             Genero.Size = new Size(68, 21);
             Genero.TabIndex = 5;
@@ -104,8 +115,9 @@
             // trama
             // 
             trama.AutoSize = true;
+            trama.BackColor = Color.White;
             trama.Font = new Font("Segoe UI", 12F);
-            trama.Location = new Point(12, 247);
+            trama.Location = new Point(12, 281);
             trama.Name = "trama";
             trama.Size = new Size(60, 21);
             trama.TabIndex = 6;
@@ -113,9 +125,10 @@
             // 
             // Poster
             // 
-            Poster.Location = new Point(422, 61);
+            Poster.BackColor = Color.FromArgb(242, 238, 215);
+            Poster.Location = new Point(441, 49);
             Poster.Name = "Poster";
-            Poster.Size = new Size(274, 362);
+            Poster.Size = new Size(274, 374);
             Poster.SizeMode = PictureBoxSizeMode.Zoom;
             Poster.TabIndex = 7;
             Poster.TabStop = false;
@@ -130,11 +143,59 @@
             pictureBox1.TabIndex = 8;
             pictureBox1.TabStop = false;
             // 
+            // button1
+            // 
+            button1.BackColor = Color.FromArgb(121, 134, 69);
+            button1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button1.Location = new Point(78, 49);
+            button1.Name = "button1";
+            button1.Size = new Size(322, 205);
+            button1.TabIndex = 9;
+            button1.UseVisualStyleBackColor = false;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.BackColor = Color.FromArgb(121, 134, 69);
+            label1.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.Location = new Point(179, 54);
+            label1.Name = "label1";
+            label1.Size = new Size(121, 28);
+            label1.TabIndex = 10;
+            label1.Text = "Informacion:";
+            label1.TextAlign = ContentAlignment.TopCenter;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.BackColor = Color.White;
+            label2.Font = new Font("Segoe UI", 12F);
+            label2.Location = new Point(90, 191);
+            label2.Name = "label2";
+            label2.Size = new Size(134, 21);
+            label2.TabIndex = 11;
+            label2.Text = "Fecha de Estreno: ";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.BackColor = Color.White;
+            label3.Font = new Font("Segoe UI", 12F);
+            label3.Location = new Point(90, 224);
+            label3.Name = "label3";
+            label3.Size = new Size(143, 21);
+            label3.TabIndex = 12;
+            label3.Text = "Fecha de Creacion: ";
+            // 
             // PeliculaInfo
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(211, 238, 152);
             ClientSize = new Size(800, 450);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(label1);
             Controls.Add(pictureBox1);
             Controls.Add(Poster);
             Controls.Add(trama);
@@ -144,6 +205,7 @@
             Controls.Add(director);
             Controls.Add(id);
             Controls.Add(nombre);
+            Controls.Add(button1);
             Name = "PeliculaInfo";
             Text = "Busqueda";
             ((System.ComponentModel.ISupportInitialize)Poster).EndInit();
@@ -163,5 +225,9 @@
         private Label trama;
         private PictureBox Poster;
         private PictureBox pictureBox1;
+        private Button button1;
+        private Label label1;
+        private Label label2;
+        private Label label3;
     }
 }

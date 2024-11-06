@@ -60,8 +60,13 @@
             comboBox4 = new ComboBox();
             comboBox5 = new ComboBox();
             direc = new ComboBox();
+            textBox2 = new TextBox();
+            label14 = new Label();
+            button3 = new Button();
+            Imagen = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Imagen).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -111,7 +116,7 @@
             // 
             label3.AutoSize = true;
             label3.BackColor = Color.White;
-            label3.Location = new Point(466, 123);
+            label3.Location = new Point(447, 89);
             label3.Name = "label3";
             label3.Size = new Size(99, 15);
             label3.TabIndex = 5;
@@ -121,7 +126,7 @@
             // 
             label4.AutoSize = true;
             label4.BackColor = Color.White;
-            label4.Location = new Point(466, 159);
+            label4.Location = new Point(447, 126);
             label4.Name = "label4";
             label4.Size = new Size(107, 15);
             label4.TabIndex = 6;
@@ -180,7 +185,7 @@
             // 
             label9.AutoSize = true;
             label9.BackColor = Color.White;
-            label9.Location = new Point(466, 197);
+            label9.Location = new Point(447, 160);
             label9.Name = "label9";
             label9.Size = new Size(93, 15);
             label9.TabIndex = 18;
@@ -190,7 +195,7 @@
             // 
             label10.AutoSize = true;
             label10.BackColor = Color.White;
-            label10.Location = new Point(591, 102);
+            label10.Location = new Point(585, 68);
             label10.Name = "label10";
             label10.Size = new Size(117, 15);
             label10.TabIndex = 25;
@@ -209,7 +214,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(36, 301);
+            button1.Location = new Point(652, 296);
             button1.Name = "button1";
             button1.Size = new Size(136, 58);
             button1.TabIndex = 20;
@@ -219,7 +224,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(636, 318);
+            button2.Location = new Point(652, 380);
             button2.Name = "button2";
             button2.Size = new Size(136, 58);
             button2.TabIndex = 26;
@@ -240,9 +245,9 @@
             // 
             dataGridView3.BackgroundColor = Color.FromArgb(121, 134, 69);
             dataGridView3.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView3.Location = new Point(457, 86);
+            dataGridView3.Location = new Point(435, 67);
             dataGridView3.Name = "dataGridView3";
-            dataGridView3.Size = new Size(304, 140);
+            dataGridView3.Size = new Size(314, 131);
             dataGridView3.TabIndex = 29;
             // 
             // label12
@@ -291,7 +296,7 @@
             diaE.AutoCompleteCustomSource.AddRange(new string[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" });
             diaE.FormattingEnabled = true;
             diaE.Items.AddRange(new object[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31" });
-            diaE.Location = new Point(579, 120);
+            diaE.Location = new Point(565, 85);
             diaE.Name = "diaE";
             diaE.Size = new Size(42, 23);
             diaE.TabIndex = 34;
@@ -301,7 +306,7 @@
             mesE.AutoCompleteCustomSource.AddRange(new string[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" });
             mesE.FormattingEnabled = true;
             mesE.Items.AddRange(new object[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12" });
-            mesE.Location = new Point(636, 120);
+            mesE.Location = new Point(625, 85);
             mesE.Name = "mesE";
             mesE.Size = new Size(42, 23);
             mesE.TabIndex = 35;
@@ -311,7 +316,7 @@
             anioE.AutoCompleteCustomSource.AddRange(new string[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" });
             anioE.FormattingEnabled = true;
             anioE.Items.AddRange(new object[] { "1984", "1985", "1986", "1987", "1988", "1989", "1990", "1991", "1992", "1993", "1994", "1995", "1996", "1997", "1998", "1999", "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025" });
-            anioE.Location = new Point(693, 120);
+            anioE.Location = new Point(683, 86);
             anioE.Name = "anioE";
             anioE.Size = new Size(56, 23);
             anioE.TabIndex = 36;
@@ -322,7 +327,7 @@
             diaC.AutoCompleteCustomSource.AddRange(new string[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" });
             diaC.FormattingEnabled = true;
             diaC.Items.AddRange(new object[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31" });
-            diaC.Location = new Point(579, 156);
+            diaC.Location = new Point(565, 123);
             diaC.Name = "diaC";
             diaC.Size = new Size(42, 23);
             diaC.TabIndex = 37;
@@ -332,7 +337,7 @@
             mesC.AutoCompleteCustomSource.AddRange(new string[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" });
             mesC.FormattingEnabled = true;
             mesC.Items.AddRange(new object[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12" });
-            mesC.Location = new Point(636, 156);
+            mesC.Location = new Point(625, 123);
             mesC.Name = "mesC";
             mesC.Size = new Size(42, 23);
             mesC.TabIndex = 38;
@@ -342,7 +347,7 @@
             AñoC.AutoCompleteCustomSource.AddRange(new string[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" });
             AñoC.FormattingEnabled = true;
             AñoC.Items.AddRange(new object[] { "1984", "1985", "1986", "1987", "1988", "1989", "1990", "1991", "1992", "1993", "1994", "1995", "1996", "1997", "1998", "1999", "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025" });
-            AñoC.Location = new Point(693, 156);
+            AñoC.Location = new Point(683, 123);
             AñoC.Name = "AñoC";
             AñoC.Size = new Size(56, 23);
             AñoC.TabIndex = 39;
@@ -369,9 +374,10 @@
             // comboBox5
             // 
             comboBox5.AutoCompleteCustomSource.AddRange(new string[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" });
+            comboBox5.BackColor = SystemColors.Window;
             comboBox5.FormattingEnabled = true;
             comboBox5.Items.AddRange(new object[] { "2d", "3d" });
-            comboBox5.Location = new Point(579, 194);
+            comboBox5.Location = new Point(565, 157);
             comboBox5.Name = "comboBox5";
             comboBox5.Size = new Size(70, 23);
             comboBox5.TabIndex = 42;
@@ -387,12 +393,55 @@
             direc.TabIndex = 43;
             direc.SelectedIndexChanged += direc_SelectedIndexChanged;
             // 
+            // textBox2
+            // 
+            textBox2.BackColor = Color.FromArgb(242, 238, 215);
+            textBox2.Location = new Point(132, 251);
+            textBox2.Multiline = true;
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(272, 153);
+            textBox2.TabIndex = 44;
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.BackColor = Color.White;
+            label14.Location = new Point(48, 264);
+            label14.Name = "label14";
+            label14.Size = new Size(72, 15);
+            label14.TabIndex = 45;
+            label14.Text = "Descripcion:";
+            // 
+            // button3
+            // 
+            button3.Location = new Point(414, 204);
+            button3.Name = "button3";
+            button3.Size = new Size(75, 67);
+            button3.TabIndex = 46;
+            button3.Text = "Cargar poster:";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
+            // 
+            // Imagen
+            // 
+            Imagen.BackColor = Color.FromArgb(242, 238, 215);
+            Imagen.Location = new Point(495, 204);
+            Imagen.Name = "Imagen";
+            Imagen.Size = new Size(151, 205);
+            Imagen.SizeMode = PictureBoxSizeMode.Zoom;
+            Imagen.TabIndex = 47;
+            Imagen.TabStop = false;
+            // 
             // NuevaPelicula
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(211, 238, 152);
             ClientSize = new Size(800, 450);
+            Controls.Add(Imagen);
+            Controls.Add(button3);
+            Controls.Add(label14);
+            Controls.Add(textBox2);
             Controls.Add(direc);
             Controls.Add(comboBox5);
             Controls.Add(comboBox4);
@@ -430,6 +479,7 @@
             Load += NuevaPelicula_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView2).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Imagen).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -468,5 +518,9 @@
         private ComboBox comboBox4;
         private ComboBox comboBox5;
         private ComboBox direc;
+        private TextBox textBox2;
+        private Label label14;
+        private Button button3;
+        private PictureBox Imagen;
     }
 }

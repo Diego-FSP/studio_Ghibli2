@@ -29,8 +29,29 @@ namespace studio5_8.Clases.CapaAplicacion
             director.Text += directorCN.nombreD(int.Parse(info.Rows[0]["id_director"].ToString()));
             Descripcion.Text += info.Rows[0]["descripcion"].ToString();
             Genero.Text += info.Rows[0]["genero"].ToString();
-            Poster.Image = Image.FromFile(info.Rows[0]["portada"].ToString());
+
+            try
+            {
+                MemoryStream ms = new MemoryStream((byte[])info.Rows[0]["poster"]);
+                Bitmap bm = new Bitmap(ms);
+                Poster.Image = bm;
+            }
+            catch (Exception)
+            {
+                Poster.Image = Image.FromFile(info.Rows[0]["portada"].ToString());
+            }
+
             //portada
+        }
+
+        private void Descripcion_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void nombre_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

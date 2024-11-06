@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             dataGridView1 = new DataGridView();
             NuevaPeli = new Button();
             button1 = new Button();
@@ -36,26 +37,32 @@
             label1 = new Label();
             label2 = new Label();
             info = new Button();
+            pictureBox1 = new PictureBox();
+            label3 = new Label();
+            label4 = new Label();
+            label5 = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // dataGridView1
             // 
             dataGridView1.AllowUserToAddRows = false;
             dataGridView1.AllowUserToDeleteRows = false;
-            dataGridView1.BackgroundColor = Color.FromArgb(121, 134, 69);
+            dataGridView1.BackgroundColor = Color.FromArgb(44, 73, 104);
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(109, 103);
+            dataGridView1.Location = new Point(137, 218);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.ReadOnly = true;
-            dataGridView1.Size = new Size(601, 280);
+            dataGridView1.Size = new Size(601, 184);
             dataGridView1.TabIndex = 0;
             dataGridView1.CellClick += dataGridView1_CellContentClick;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // NuevaPeli
             // 
-            NuevaPeli.Location = new Point(159, 389);
+            NuevaPeli.ForeColor = Color.FromArgb(64, 64, 64);
+            NuevaPeli.Location = new Point(32, 441);
             NuevaPeli.Name = "NuevaPeli";
             NuevaPeli.Size = new Size(98, 49);
             NuevaPeli.TabIndex = 1;
@@ -65,17 +72,21 @@
             // 
             // button1
             // 
-            button1.Location = new Point(535, 389);
+            button1.ForeColor = Color.FromArgb(64, 64, 64);
+            button1.Location = new Point(734, 441);
             button1.Name = "button1";
-            button1.Size = new Size(116, 49);
+            button1.Size = new Size(105, 49);
             button1.TabIndex = 2;
             button1.Text = "Actualizar";
+            button1.TextImageRelation = TextImageRelation.TextBeforeImage;
+            button1.UseCompatibleTextRendering = true;
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
             // button2
             // 
-            button2.Location = new Point(301, 74);
+            button2.ForeColor = Color.FromArgb(64, 64, 64);
+            button2.Location = new Point(338, 189);
             button2.Name = "button2";
             button2.Size = new Size(75, 23);
             button2.TabIndex = 3;
@@ -86,7 +97,7 @@
             // textBox1
             // 
             textBox1.BackColor = Color.FromArgb(242, 238, 215);
-            textBox1.Location = new Point(456, 74);
+            textBox1.Location = new Point(464, 189);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(33, 23);
             textBox1.TabIndex = 4;
@@ -97,17 +108,16 @@
             label1.BackColor = Color.FromArgb(242, 238, 215);
             label1.Font = new Font("Segoe UI", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.Black;
-            label1.Location = new Point(255, 9);
+            label1.Location = new Point(293, 81);
             label1.Name = "label1";
-            label1.Size = new Size(280, 37);
+            label1.Size = new Size(0, 37);
             label1.TabIndex = 5;
-            label1.Text = "Menu Peliculas GHIBLI";
             label1.Click += label1_Click;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(429, 78);
+            label2.Location = new Point(437, 193);
             label2.Name = "label2";
             label2.Size = new Size(21, 15);
             label2.TabIndex = 6;
@@ -115,7 +125,8 @@
             // 
             // info
             // 
-            info.Location = new Point(358, 389);
+            info.ForeColor = Color.FromArgb(64, 64, 64);
+            info.Location = new Point(376, 441);
             info.Name = "info";
             info.Size = new Size(105, 49);
             info.TabIndex = 7;
@@ -124,12 +135,61 @@
             info.Visible = false;
             info.Click += info_Click;
             // 
+            // pictureBox1
+            // 
+            pictureBox1.BackColor = Color.FromArgb(44, 73, 104);
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(12, 9);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(855, 164);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 8;
+            pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click_1;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(2, 9);
+            label3.Name = "label3";
+            label3.Size = new Size(0, 15);
+            label3.TabIndex = 9;
+            label3.Click += label3_Click;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.BackColor = Color.FromArgb(44, 73, 104);
+            label4.Font = new Font("Arial", 24.75F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point, 0);
+            label4.ForeColor = Color.Transparent;
+            label4.Location = new Point(323, 46);
+            label4.Name = "label4";
+            label4.Size = new Size(195, 38);
+            label4.TabIndex = 10;
+            label4.Text = "スタジオジブリ";
+            label4.Click += label4_Click;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.BackColor = Color.FromArgb(44, 73, 104);
+            label5.Font = new Font("Calibri", 24.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label5.ForeColor = Color.Transparent;
+            label5.Location = new Point(311, 84);
+            label5.Name = "label5";
+            label5.Size = new Size(223, 40);
+            label5.TabIndex = 11;
+            label5.Text = "STUDIO GHIBLI";
+            // 
             // Menu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(211, 234, 152);
-            ClientSize = new Size(800, 450);
+            BackColor = Color.FromArgb(97, 118, 142);
+            ClientSize = new Size(879, 524);
+            Controls.Add(label5);
+            Controls.Add(label4);
+            Controls.Add(label3);
             Controls.Add(info);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -138,10 +198,13 @@
             Controls.Add(button1);
             Controls.Add(NuevaPeli);
             Controls.Add(dataGridView1);
+            Controls.Add(pictureBox1);
+            ForeColor = Color.FromArgb(64, 64, 64);
             Name = "Menu";
             Text = "Menu";
             Load += Menu_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -156,5 +219,9 @@
         private Label label1;
         private Label label2;
         private Button info;
+        private PictureBox pictureBox1;
+        private Label label3;
+        private Label label4;
+        private Label label5;
     }
 }

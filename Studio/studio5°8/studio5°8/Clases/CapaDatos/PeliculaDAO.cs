@@ -32,7 +32,7 @@ namespace studio5_8.Clases.CapaDatos
         {
             dt = new DataTable();
             MySqlConnection Mc = Peliculas.conex;
-            MySqlDataAdapter DA = new MySqlDataAdapter("Select id_pelicula, id_estudio, id_director, nombre, fecha_estreno, fecha_creacion, Duracion, genero, presupuesto, calificacion, Programa_stilo, descripcion, portada from peliculas where id_pelicula=" + id, Mc);
+            MySqlDataAdapter DA = new MySqlDataAdapter("Select id_pelicula, id_estudio, id_director, nombre, fecha_estreno, fecha_creacion, Duracion, genero, presupuesto, calificacion, Programa_stilo, descripcion, portada , poster from peliculas where id_pelicula=" + id, Mc);
             DA.Fill(dt);
             Mc.Close();
             return dt;
@@ -69,11 +69,14 @@ namespace studio5_8.Clases.CapaDatos
             cmd.Parameters.Add("@unpresupuesto",MySqlDbType.Double).Value = p.Presupuesto;
             cmd.Parameters.Add("@uncalificacion",MySqlDbType.VarChar).Value = p.Calificacion;
             cmd.Parameters.Add("@unprogramastilo",MySqlDbType.VarChar).Value = p.ProgramaEstilo;
+            cmd.Parameters.Add("@undescripcion", MySqlDbType.VarChar).Value = p.descripcion;
+            cmd.Parameters.Add("@unposter", MySqlDbType.LongBlob).Value = p.poster;
 
             try
             {
                 cmd.Connection.Open();
                 cmd.ExecuteNonQuery();
+                cmd.Connection.Close();
             }
             catch(Exception)
             {
@@ -107,6 +110,7 @@ namespace studio5_8.Clases.CapaDatos
             {
                 cmd.Connection.Open();
                 cmd.ExecuteNonQuery();
+                cmd.Connection.Close();
             }
             catch (Exception)
             {

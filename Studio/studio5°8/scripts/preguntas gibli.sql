@@ -31,6 +31,8 @@ inner join peliculas P on P.id_Director=D.id_Director
 group by D.id_Director
 order by count(id_pelicula);
 
+select *
+from director;
 -- mostrar la cantidad de personajes que hay en cada peli
 select PE.nombre 'Peliculas', count(id_personaje) 'Cantidad de Personajes'
 from peliculas PE

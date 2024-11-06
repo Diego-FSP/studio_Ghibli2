@@ -70,7 +70,7 @@ namespace studio5_8
                     MessageBox.Show("Se Elimino la Pelicula");
                     Actualizar();
                 }
-                else 
+                else
                 {
                     MessageBox.Show("Esa pelicula no existe");
                 }
@@ -96,6 +96,31 @@ namespace studio5_8
         {
             PeliculaInfo info = new PeliculaInfo(conex, seleccion);
             info.Show();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ACT_Click(object sender, EventArgs e)
+        {
+            Actualizar();
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

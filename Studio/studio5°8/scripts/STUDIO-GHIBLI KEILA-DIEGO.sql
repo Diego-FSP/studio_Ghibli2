@@ -40,6 +40,7 @@ calificacion varchar(20),
 Programa_stilo varchar(20),
 descripcion varchar(600),
 portada varchar(45),
+poster longblob,
 constraint PK_puliculas primary key(id_pelicula, genero),
 constraint fk_peliculas_Estudio foreign key(id_estudio)
 references  Estudio (id_estudio),

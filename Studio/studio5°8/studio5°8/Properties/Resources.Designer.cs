@@ -63,6 +63,26 @@ namespace studio5_8.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BTQ_StudioGhibli_CollectionBanner {
+            get {
+                object obj = ResourceManager.GetObject("BTQ_StudioGhibli_CollectionBanner", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ghibli_collection_fb {
+            get {
+                object obj = ResourceManager.GetObject("ghibli_collection_fb", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icono {
             get {
                 object obj = ResourceManager.GetObject("icono", resourceCulture);

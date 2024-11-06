@@ -23,4 +23,8 @@ public class PeliculaCE
     public int idStudio { get; set; }
 
     public required int director { get; set; }
+
+    public required string descripcion { get; set; }
+
+    public required byte[] poster { get; set; }
 }

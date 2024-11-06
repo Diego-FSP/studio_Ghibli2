@@ -1,62 +1,58 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Diego Fabricio\\Desktop\\studio_Ghibli2\\Studio\\studio5\u00B08\\",
+  "WorkspaceRootPath": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\studio_Ghibli2\\Studio\\studio5\u00B08\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|c:\\users\\diego fabricio\\desktop\\studio_ghibli2\\studio\\studio5\u00B08\\studio5\u00B08\\clases\\capaaplicacion\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|solutionrelative:studio5\u00B08\\clases\\capaaplicacion\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|C:\\Users\\Diego Fabricio\\Desktop\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\clases\\capaaplicacion\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|C:\\Users\\Lab15-PC01\\Documents\\GitHub\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\clases\\capaaplicacion\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|solutionrelative:studio5\u00B08\\clases\\capaaplicacion\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|C:\\Users\\Diego Fabricio\\Desktop\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\clases\\capaaplicacion\\nuevapelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|solutionrelative:studio5\u00B08\\clases\\capaaplicacion\\nuevapelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|c:\\users\\lab15-pc01\\documents\\github\\studio_ghibli2\\studio\\studio5\u00B08\\studio5\u00B08\\clases\\capaaplicacion\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|solutionrelative:studio5\u00B08\\clases\\capaaplicacion\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|c:\\users\\diego fabricio\\desktop\\studio_ghibli2\\studio\\studio5\u00B08\\studio5\u00B08\\clases\\capadatos\\peliculadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|solutionrelative:studio5\u00B08\\clases\\capadatos\\peliculadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|c:\\users\\diego fabricio\\desktop\\studio_ghibli2\\studio\\studio5\u00B08\\studio5\u00B08\\clases\\capaaplicacion\\nuevapelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|solutionrelative:studio5\u00B08\\clases\\capaaplicacion\\nuevapelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|C:\\Users\\Diego Fabricio\\Desktop\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\clases\\capaaplicacion\\peliculainfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|solutionrelative:studio5\u00B08\\clases\\capaaplicacion\\peliculainfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|c:\\users\\diego fabricio\\desktop\\studio_ghibli2\\studio\\studio5\u00B08\\studio5\u00B08\\clases\\capaaplicacion\\inicioo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|solutionrelative:studio5\u00B08\\clases\\capaaplicacion\\inicioo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|c:\\users\\diego fabricio\\desktop\\studio_ghibli2\\studio\\studio5\u00B08\\studio5\u00B08\\clases\\capaentidad\\pelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|solutionrelative:studio5\u00B08\\clases\\capaentidad\\pelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|c:\\users\\diego fabricio\\desktop\\studio_ghibli2\\studio\\studio5\u00B08\\studio5\u00B08\\clases\\capanegocio\\directorcn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|solutionrelative:studio5\u00B08\\clases\\capanegocio\\directorcn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|c:\\users\\diego fabricio\\desktop\\studio_ghibli2\\studio\\studio5\u00B08\\studio5\u00B08\\clases\\capaaplicacion\\peliculainfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|solutionrelative:studio5\u00B08\\clases\\capaaplicacion\\peliculainfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|c:\\users\\diego fabricio\\desktop\\studio_ghibli2\\studio\\studio5\u00B08\\studio5\u00B08\\clases\\capadatos\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|solutionrelative:studio5\u00B08\\clases\\capadatos\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|c:\\users\\diego fabricio\\desktop\\studio_ghibli2\\studio\\studio5\u00B08\\studio5\u00B08\\clases\\capanegocio\\peliculacn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|c:\\users\\lab15-pc01\\documents\\github\\studio_ghibli2\\studio\\studio5\u00B08\\studio5\u00B08\\clases\\capanegocio\\peliculacn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|solutionrelative:studio5\u00B08\\clases\\capanegocio\\peliculacn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|c:\\users\\diego fabricio\\desktop\\studio_ghibli2\\studio\\studio5\u00B08\\studio5\u00B08\\clases\\capaaplicacion\\inicioo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|C:\\Users\\Lab15-PC01\\Documents\\GitHub\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\clases\\capaaplicacion\\inicioo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|solutionrelative:studio5\u00B08\\clases\\capaaplicacion\\inicioo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|C:\\Users\\Lab15-PC01\\Documents\\GitHub\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\clases\\capaaplicacion\\peliculainfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|solutionrelative:studio5\u00B08\\clases\\capaaplicacion\\peliculainfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|C:\\Users\\Lab15-PC01\\Documents\\GitHub\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\clases\\capaaplicacion\\nuevapelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|solutionrelative:studio5\u00B08\\clases\\capaaplicacion\\nuevapelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|c:\\users\\lab15-pc01\\documents\\github\\studio_ghibli2\\studio\\studio5\u00B08\\studio5\u00B08\\clases\\capanegocio\\directorcn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|solutionrelative:studio5\u00B08\\clases\\capanegocio\\directorcn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|c:\\users\\lab15-pc01\\documents\\github\\studio_ghibli2\\studio\\studio5\u00B08\\studio5\u00B08\\clases\\capadatos\\peliculadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|solutionrelative:studio5\u00B08\\clases\\capadatos\\peliculadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|c:\\users\\lab15-pc01\\documents\\github\\studio_ghibli2\\studio\\studio5\u00B08\\studio5\u00B08\\clases\\capaaplicacion\\nuevapelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|solutionrelative:studio5\u00B08\\clases\\capaaplicacion\\nuevapelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|c:\\users\\lab15-pc01\\documents\\github\\studio_ghibli2\\studio\\studio5\u00B08\\studio5\u00B08\\clases\\capaaplicacion\\peliculainfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|solutionrelative:studio5\u00B08\\clases\\capaaplicacion\\peliculainfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|c:\\users\\lab15-pc01\\documents\\github\\studio_ghibli2\\studio\\studio5\u00B08\\studio5\u00B08\\clases\\capaaplicacion\\inicioo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|solutionrelative:studio5\u00B08\\clases\\capaaplicacion\\inicioo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|c:\\users\\diego fabricio\\desktop\\studio_ghibli2\\studio\\studio5\u00B08\\studio5\u00B08\\clases\\capadatos\\directordao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|solutionrelative:studio5\u00B08\\clases\\capadatos\\directordao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|c:\\users\\lab15-pc01\\documents\\github\\studio_ghibli2\\studio\\studio5\u00B08\\studio5\u00B08\\clases\\capaentidad\\pelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|solutionrelative:studio5\u00B08\\clases\\capaentidad\\pelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|c:\\users\\lab15-pc01\\documents\\github\\studio_ghibli2\\studio\\studio5\u00B08\\studio5\u00B08\\clases\\capadatos\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C6F49B8-E011-4B5D-8038-51EAE4D27A0D}|studio5\u00B08\\studio5\u00B08.csproj|solutionrelative:studio5\u00B08\\clases\\capadatos\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,15 +62,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 10,
               "Title": "Inicioo.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Fabricio\\Desktop\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaAplicacion\\Inicioo.cs",
+              "DocumentMoniker": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaAplicacion\\Inicioo.cs",
               "RelativeDocumentMoniker": "studio5\u00B08\\Clases\\CapaAplicacion\\Inicioo.cs",
-              "ToolTip": "C:\\Users\\Diego Fabricio\\Desktop\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaAplicacion\\Inicioo.cs",
+              "ToolTip": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaAplicacion\\Inicioo.cs",
               "RelativeToolTip": "studio5\u00B08\\Clases\\CapaAplicacion\\Inicioo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -84,13 +80,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Menu.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Fabricio\\Desktop\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaAplicacion\\Menu.cs",
+              "DocumentMoniker": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaAplicacion\\Menu.cs",
               "RelativeDocumentMoniker": "studio5\u00B08\\Clases\\CapaAplicacion\\Menu.cs",
-              "ToolTip": "C:\\Users\\Diego Fabricio\\Desktop\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaAplicacion\\Menu.cs",
+              "ToolTip": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaAplicacion\\Menu.cs",
               "RelativeToolTip": "studio5\u00B08\\Clases\\CapaAplicacion\\Menu.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAIA9wEQAAAApAAAA",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAwHoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T16:56:10.192Z",
               "IsPinned": true,
@@ -98,47 +94,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DirectorCN.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Fabricio\\Desktop\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaNegocio\\DirectorCN.cs",
-              "RelativeDocumentMoniker": "studio5\u00B08\\Clases\\CapaNegocio\\DirectorCN.cs",
-              "ToolTip": "C:\\Users\\Diego Fabricio\\Desktop\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaNegocio\\DirectorCN.cs",
-              "RelativeToolTip": "studio5\u00B08\\Clases\\CapaNegocio\\DirectorCN.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T18:32:15.269Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Pelicula.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Fabricio\\Desktop\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaEntidad\\Pelicula.cs",
-              "RelativeDocumentMoniker": "studio5\u00B08\\Clases\\CapaEntidad\\Pelicula.cs",
-              "ToolTip": "C:\\Users\\Diego Fabricio\\Desktop\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaEntidad\\Pelicula.cs",
-              "RelativeToolTip": "studio5\u00B08\\Clases\\CapaEntidad\\Pelicula.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T18:31:57Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DirectorDAO.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Fabricio\\Desktop\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaDatos\\DirectorDAO.cs",
-              "RelativeDocumentMoniker": "studio5\u00B08\\Clases\\CapaDatos\\DirectorDAO.cs",
-              "ToolTip": "C:\\Users\\Diego Fabricio\\Desktop\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaDatos\\DirectorDAO.cs",
-              "RelativeToolTip": "studio5\u00B08\\Clases\\CapaDatos\\DirectorDAO.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAIwC8AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T18:29:45.722Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "NuevaPelicula.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Diego Fabricio\\Desktop\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaAplicacion\\NuevaPelicula.cs",
+              "DocumentMoniker": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaAplicacion\\NuevaPelicula.cs",
               "RelativeDocumentMoniker": "studio5\u00B08\\Clases\\CapaAplicacion\\NuevaPelicula.cs",
-              "ToolTip": "C:\\Users\\Diego Fabricio\\Desktop\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaAplicacion\\NuevaPelicula.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaAplicacion\\NuevaPelicula.cs [Dise\u00F1o]",
               "RelativeToolTip": "studio5\u00B08\\Clases\\CapaAplicacion\\NuevaPelicula.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-23T18:23:25.437Z",
@@ -146,23 +106,101 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "conexion.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Fabricio\\Desktop\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaDatos\\conexion.cs",
-              "RelativeDocumentMoniker": "studio5\u00B08\\Clases\\CapaDatos\\conexion.cs",
-              "ToolTip": "C:\\Users\\Diego Fabricio\\Desktop\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaDatos\\conexion.cs",
-              "RelativeToolTip": "studio5\u00B08\\Clases\\CapaDatos\\conexion.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "PeliculaInfo.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaAplicacion\\PeliculaInfo.cs",
+              "RelativeDocumentMoniker": "studio5\u00B08\\Clases\\CapaAplicacion\\PeliculaInfo.cs",
+              "ToolTip": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaAplicacion\\PeliculaInfo.cs [Dise\u00F1o]",
+              "RelativeToolTip": "studio5\u00B08\\Clases\\CapaAplicacion\\PeliculaInfo.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T18:13:29.952Z"
+              "WhenOpened": "2024-10-22T18:59:27.413Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PeliculaInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaAplicacion\\PeliculaInfo.cs",
+              "RelativeDocumentMoniker": "studio5\u00B08\\Clases\\CapaAplicacion\\PeliculaInfo.cs",
+              "ToolTip": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaAplicacion\\PeliculaInfo.cs",
+              "RelativeToolTip": "studio5\u00B08\\Clases\\CapaAplicacion\\PeliculaInfo.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAxwBwAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T17:06:38.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NuevaPelicula.cs",
+              "DocumentMoniker": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaAplicacion\\NuevaPelicula.cs",
+              "RelativeDocumentMoniker": "studio5\u00B08\\Clases\\CapaAplicacion\\NuevaPelicula.cs",
+              "ToolTip": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaAplicacion\\NuevaPelicula.cs",
+              "RelativeToolTip": "studio5\u00B08\\Clases\\CapaAplicacion\\NuevaPelicula.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAIwDUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T16:55:38.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Pelicula.cs",
+              "DocumentMoniker": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaEntidad\\Pelicula.cs",
+              "RelativeDocumentMoniker": "studio5\u00B08\\Clases\\CapaEntidad\\Pelicula.cs",
+              "ToolTip": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaEntidad\\Pelicula.cs",
+              "RelativeToolTip": "studio5\u00B08\\Clases\\CapaEntidad\\Pelicula.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAmwBwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T18:31:57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "conexion.cs",
+              "DocumentMoniker": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaDatos\\conexion.cs",
+              "RelativeDocumentMoniker": "studio5\u00B08\\Clases\\CapaDatos\\conexion.cs",
+              "ToolTip": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaDatos\\conexion.cs",
+              "RelativeToolTip": "studio5\u00B08\\Clases\\CapaDatos\\conexion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T18:13:29.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PeliculaDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaDatos\\PeliculaDAO.cs",
+              "RelativeDocumentMoniker": "studio5\u00B08\\Clases\\CapaDatos\\PeliculaDAO.cs",
+              "ToolTip": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaDatos\\PeliculaDAO.cs",
+              "RelativeToolTip": "studio5\u00B08\\Clases\\CapaDatos\\PeliculaDAO.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAkwEsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T16:56:39.228Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "DirectorCN.cs",
+              "DocumentMoniker": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaNegocio\\DirectorCN.cs",
+              "RelativeDocumentMoniker": "studio5\u00B08\\Clases\\CapaNegocio\\DirectorCN.cs",
+              "ToolTip": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaNegocio\\DirectorCN.cs",
+              "RelativeToolTip": "studio5\u00B08\\Clases\\CapaNegocio\\DirectorCN.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T18:32:15.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Inicioo.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Diego Fabricio\\Desktop\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaAplicacion\\Inicioo.cs",
+              "DocumentMoniker": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaAplicacion\\Inicioo.cs",
               "RelativeDocumentMoniker": "studio5\u00B08\\Clases\\CapaAplicacion\\Inicioo.cs",
-              "ToolTip": "C:\\Users\\Diego Fabricio\\Desktop\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaAplicacion\\Inicioo.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaAplicacion\\Inicioo.cs [Dise\u00F1o]",
               "RelativeToolTip": "studio5\u00B08\\Clases\\CapaAplicacion\\Inicioo.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-23T18:14:01.812Z",
@@ -170,77 +208,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
               "Title": "PeliculaCN.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Fabricio\\Desktop\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaNegocio\\PeliculaCN.cs",
+              "DocumentMoniker": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaNegocio\\PeliculaCN.cs",
               "RelativeDocumentMoniker": "studio5\u00B08\\Clases\\CapaNegocio\\PeliculaCN.cs",
-              "ToolTip": "C:\\Users\\Diego Fabricio\\Desktop\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaNegocio\\PeliculaCN.cs",
+              "ToolTip": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaNegocio\\PeliculaCN.cs",
               "RelativeToolTip": "studio5\u00B08\\Clases\\CapaNegocio\\PeliculaCN.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAA1wBIAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwBIAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T17:35:27.72Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PeliculaInfo.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Fabricio\\Desktop\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaAplicacion\\PeliculaInfo.cs",
-              "RelativeDocumentMoniker": "studio5\u00B08\\Clases\\CapaAplicacion\\PeliculaInfo.cs",
-              "ToolTip": "C:\\Users\\Diego Fabricio\\Desktop\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaAplicacion\\PeliculaInfo.cs",
-              "RelativeToolTip": "studio5\u00B08\\Clases\\CapaAplicacion\\PeliculaInfo.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAqwB8AAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T17:06:38.669Z",
+              "WhenOpened": "2024-10-23T17:35:27.72Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NuevaPelicula.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Fabricio\\Desktop\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaAplicacion\\NuevaPelicula.cs",
-              "RelativeDocumentMoniker": "studio5\u00B08\\Clases\\CapaAplicacion\\NuevaPelicula.cs",
-              "ToolTip": "C:\\Users\\Diego Fabricio\\Desktop\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaAplicacion\\NuevaPelicula.cs",
-              "RelativeToolTip": "studio5\u00B08\\Clases\\CapaAplicacion\\NuevaPelicula.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T16:55:38.036Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Menu.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Diego Fabricio\\Desktop\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaAplicacion\\Menu.cs",
+              "DocumentMoniker": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaAplicacion\\Menu.cs",
               "RelativeDocumentMoniker": "studio5\u00B08\\Clases\\CapaAplicacion\\Menu.cs",
-              "ToolTip": "C:\\Users\\Diego Fabricio\\Desktop\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaAplicacion\\Menu.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaAplicacion\\Menu.cs [Dise\u00F1o]",
               "RelativeToolTip": "studio5\u00B08\\Clases\\CapaAplicacion\\Menu.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T17:44:00.659Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PeliculaDAO.cs",
-              "DocumentMoniker": "C:\\Users\\Diego Fabricio\\Desktop\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaDatos\\PeliculaDAO.cs",
-              "RelativeDocumentMoniker": "studio5\u00B08\\Clases\\CapaDatos\\PeliculaDAO.cs",
-              "ToolTip": "C:\\Users\\Diego Fabricio\\Desktop\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaDatos\\PeliculaDAO.cs",
-              "RelativeToolTip": "studio5\u00B08\\Clases\\CapaDatos\\PeliculaDAO.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAowCwAAABYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T16:56:39.228Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PeliculaInfo.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Diego Fabricio\\Desktop\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaAplicacion\\PeliculaInfo.cs",
-              "RelativeDocumentMoniker": "studio5\u00B08\\Clases\\CapaAplicacion\\PeliculaInfo.cs",
-              "ToolTip": "C:\\Users\\Diego Fabricio\\Desktop\\studio_Ghibli2\\Studio\\studio5\u00B08\\studio5\u00B08\\Clases\\CapaAplicacion\\PeliculaInfo.cs [Dise\u00F1o]",
-              "RelativeToolTip": "studio5\u00B08\\Clases\\CapaAplicacion\\PeliculaInfo.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T18:59:27.413Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]
