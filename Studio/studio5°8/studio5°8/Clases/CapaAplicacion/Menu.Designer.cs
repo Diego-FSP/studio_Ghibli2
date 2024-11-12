@@ -41,6 +41,7 @@
             label3 = new Label();
             label4 = new Label();
             label5 = new Label();
+            button3 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -62,7 +63,7 @@
             // NuevaPeli
             // 
             NuevaPeli.ForeColor = Color.FromArgb(64, 64, 64);
-            NuevaPeli.Location = new Point(32, 441);
+            NuevaPeli.Location = new Point(137, 423);
             NuevaPeli.Name = "NuevaPeli";
             NuevaPeli.Size = new Size(98, 49);
             NuevaPeli.TabIndex = 1;
@@ -73,7 +74,7 @@
             // button1
             // 
             button1.ForeColor = Color.FromArgb(64, 64, 64);
-            button1.Location = new Point(734, 441);
+            button1.Location = new Point(633, 423);
             button1.Name = "button1";
             button1.Size = new Size(105, 49);
             button1.TabIndex = 2;
@@ -96,7 +97,7 @@
             // 
             // textBox1
             // 
-            textBox1.BackColor = Color.FromArgb(242, 238, 215);
+            textBox1.BackColor = Color.FromArgb(224, 224, 224);
             textBox1.Location = new Point(464, 189);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(33, 23);
@@ -117,6 +118,7 @@
             // label2
             // 
             label2.AutoSize = true;
+            label2.BackColor = Color.FromArgb(97, 118, 142);
             label2.Location = new Point(437, 193);
             label2.Name = "label2";
             label2.Size = new Size(21, 15);
@@ -126,7 +128,7 @@
             // info
             // 
             info.ForeColor = Color.FromArgb(64, 64, 64);
-            info.Location = new Point(376, 441);
+            info.Location = new Point(376, 423);
             info.Name = "info";
             info.Size = new Size(105, 49);
             info.TabIndex = 7;
@@ -181,12 +183,23 @@
             label5.TabIndex = 11;
             label5.Text = "STUDIO GHIBLI";
             // 
+            // button3
+            // 
+            button3.Location = new Point(762, 476);
+            button3.Name = "button3";
+            button3.Size = new Size(105, 36);
+            button3.TabIndex = 12;
+            button3.Text = "Salir";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
+            // 
             // Menu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(97, 118, 142);
             ClientSize = new Size(879, 524);
+            Controls.Add(button3);
             Controls.Add(label5);
             Controls.Add(label4);
             Controls.Add(label3);
@@ -223,5 +236,6 @@
         private Label label3;
         private Label label4;
         private Label label5;
+        private Button button3;
     }
 }

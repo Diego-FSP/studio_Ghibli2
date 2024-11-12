@@ -53,5 +53,10 @@ namespace studio5_8.Clases.CapaAplicacion
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

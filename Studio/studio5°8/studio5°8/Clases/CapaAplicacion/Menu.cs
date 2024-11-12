@@ -122,5 +122,11 @@ namespace studio5_8
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            conex.conex.Close();
+            this.Close();
+        }
     }
 }

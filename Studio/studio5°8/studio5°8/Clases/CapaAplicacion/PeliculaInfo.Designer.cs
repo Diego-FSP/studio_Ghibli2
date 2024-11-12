@@ -41,6 +41,7 @@
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
+            button2 = new Button();
             ((System.ComponentModel.ISupportInitialize)Poster).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -126,9 +127,9 @@
             // Poster
             // 
             Poster.BackColor = Color.FromArgb(242, 238, 215);
-            Poster.Location = new Point(441, 49);
+            Poster.Location = new Point(409, 49);
             Poster.Name = "Poster";
-            Poster.Size = new Size(274, 374);
+            Poster.Size = new Size(274, 387);
             Poster.SizeMode = PictureBoxSizeMode.Zoom;
             Poster.TabIndex = 7;
             Poster.TabStop = false;
@@ -187,12 +188,23 @@
             label3.TabIndex = 12;
             label3.Text = "Fecha de Creacion: ";
             // 
+            // button2
+            // 
+            button2.Location = new Point(701, 383);
+            button2.Name = "button2";
+            button2.Size = new Size(87, 39);
+            button2.TabIndex = 13;
+            button2.Text = "Salir";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
             // PeliculaInfo
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(211, 238, 152);
             ClientSize = new Size(800, 450);
+            Controls.Add(button2);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -229,5 +241,6 @@
         private Label label1;
         private Label label2;
         private Label label3;
+        private Button button2;
     }
 }

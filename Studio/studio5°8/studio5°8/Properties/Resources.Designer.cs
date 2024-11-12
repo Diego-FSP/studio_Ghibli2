@@ -73,6 +73,16 @@ namespace studio5_8.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap carga {
+            get {
+                object obj = ResourceManager.GetObject("carga", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ghibli_collection_fb {
             get {
                 object obj = ResourceManager.GetObject("ghibli_collection_fb", resourceCulture);
@@ -86,6 +96,16 @@ namespace studio5_8.Properties {
         internal static System.Drawing.Bitmap icono {
             get {
                 object obj = ResourceManager.GetObject("icono", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap totoro {
+            get {
+                object obj = ResourceManager.GetObject("totoro", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

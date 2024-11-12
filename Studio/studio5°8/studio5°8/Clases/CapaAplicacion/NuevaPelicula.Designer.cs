@@ -425,6 +425,7 @@
             // Imagen
             // 
             Imagen.BackColor = Color.FromArgb(242, 238, 215);
+            Imagen.Image = Properties.Resources.carga;
             Imagen.Location = new Point(495, 204);
             Imagen.Name = "Imagen";
             Imagen.Size = new Size(151, 205);
