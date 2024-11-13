@@ -56,7 +56,7 @@ namespace studio5_8
                     idStudio = 1,
                     IdPelicula = conexion.CantidadP() + 1,
                     Nombre = textBox1.Text,
-                    director = direc.SelectedIndex+1,
+                    director = direc.SelectedIndex + 1,
                     FechaCreacion = fecha(fc),
                     FechaEstreno = fecha(fe),
                     Duracion = comboBox3.Text + "H " + comboBox4.Text + "m",
@@ -87,7 +87,7 @@ namespace studio5_8
             catch (Exception j)
             {
 
-                MessageBox.Show("No se agrego Pelicula"+j);
+                MessageBox.Show("No se agrego Pelicula" + j);
             }
         }
         public DateTime fecha(int[] f)
@@ -170,10 +170,20 @@ namespace studio5_8
             Selecionar.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyPictures);
             Selecionar.Title = "Selecionar";
 
-            if (Selecionar.ShowDialog() == DialogResult.OK) 
+            if (Selecionar.ShowDialog() == DialogResult.OK)
             {
                 Imagen.Image = Image.FromFile(Selecionar.FileName);
             }
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

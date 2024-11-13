@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Inicioo));
             button1 = new Button();
             label1 = new Label();
             textBox1 = new TextBox();
@@ -45,6 +46,7 @@
             button1.BackColor = Color.Silver;
             button1.BackgroundImageLayout = ImageLayout.Center;
             button1.FlatStyle = FlatStyle.Popup;
+            button1.Font = new Font("Calibri", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button1.Location = new Point(57, 237);
             button1.Name = "button1";
             button1.Size = new Size(240, 23);
@@ -56,13 +58,14 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.BackColor = Color.Silver;
+            label1.BackColor = Color.Gainsboro;
             label1.BorderStyle = BorderStyle.FixedSingle;
-            label1.Location = new Point(155, 81);
+            label1.Font = new Font("Calibri", 9F);
+            label1.Location = new Point(148, 81);
             label1.Name = "label1";
-            label1.Size = new Size(49, 17);
+            label1.Size = new Size(57, 16);
             label1.TabIndex = 1;
-            label1.Text = "Usuario";
+            label1.Text = "USUARIO";
             // 
             // textBox1
             // 
@@ -77,12 +80,14 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.BackColor = Color.Silver;
-            label2.Location = new Point(145, 161);
+            label2.BackColor = Color.Gainsboro;
+            label2.Font = new Font("Calibri", 9F);
+            label2.Location = new Point(140, 161);
             label2.Name = "label2";
-            label2.Size = new Size(67, 15);
+            label2.Size = new Size(76, 14);
             label2.TabIndex = 3;
-            label2.Text = "Contraseña";
+            label2.Text = "CONTRASEÑA";
+            label2.Click += label2_Click;
             // 
             // textBox2
             // 
@@ -106,14 +111,14 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.BackColor = Color.Gainsboro;
+            label3.BackColor = Color.FromArgb(44, 73, 104);
             label3.BorderStyle = BorderStyle.FixedSingle;
-            label3.Font = new Font("Segoe UI", 18.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.Location = new Point(97, 26);
+            label3.Font = new Font("Calibri", 24.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label3.Location = new Point(78, 27);
             label3.Name = "label3";
-            label3.Size = new Size(154, 37);
+            label3.Size = new Size(205, 42);
             label3.TabIndex = 6;
-            label3.Text = "Inicia Sesion";
+            label3.Text = "INICIA SESIÓN";
             label3.Click += label3_Click;
             // 
             // pictureBox2
@@ -141,6 +146,7 @@
             Controls.Add(button1);
             Controls.Add(dataGridView1);
             Controls.Add(pictureBox2);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Inicioo";
             Text = "Iniciar Secion";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();

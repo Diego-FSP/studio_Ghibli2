@@ -128,5 +128,10 @@ namespace studio5_8
             conex.conex.Close();
             this.Close();
         }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             dataGridView1 = new DataGridView();
             NuevaPeli = new Button();
@@ -42,8 +43,10 @@
             label4 = new Label();
             label5 = new Label();
             button3 = new Button();
+            pictureBox2 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // dataGridView1
@@ -51,7 +54,19 @@
             dataGridView1.AllowUserToAddRows = false;
             dataGridView1.AllowUserToDeleteRows = false;
             dataGridView1.BackgroundColor = Color.FromArgb(44, 73, 104);
+            dataGridView1.BorderStyle = BorderStyle.None;
+            dataGridView1.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = SystemColors.MenuHighlight;
+            dataGridViewCellStyle1.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle1.ForeColor = SystemColors.Window;
+            dataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = SystemColors.Highlight;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
+            dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.EnableHeadersVisualStyles = false;
+            dataGridView1.GridColor = SystemColors.MenuHighlight;
             dataGridView1.Location = new Point(137, 218);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.ReadOnly = true;
@@ -128,9 +143,9 @@
             // info
             // 
             info.ForeColor = Color.FromArgb(64, 64, 64);
-            info.Location = new Point(376, 423);
+            info.Location = new Point(391, 423);
             info.Name = "info";
-            info.Size = new Size(105, 49);
+            info.Size = new Size(102, 49);
             info.TabIndex = 7;
             info.Text = "Informacion";
             info.UseVisualStyleBackColor = true;
@@ -160,11 +175,10 @@
             // 
             // label4
             // 
-            label4.AutoSize = true;
             label4.BackColor = Color.FromArgb(44, 73, 104);
             label4.Font = new Font("Arial", 24.75F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point, 0);
             label4.ForeColor = Color.Transparent;
-            label4.Location = new Point(323, 46);
+            label4.Location = new Point(351, 46);
             label4.Name = "label4";
             label4.Size = new Size(195, 38);
             label4.TabIndex = 10;
@@ -173,15 +187,15 @@
             // 
             // label5
             // 
-            label5.AutoSize = true;
             label5.BackColor = Color.FromArgb(44, 73, 104);
             label5.Font = new Font("Calibri", 24.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label5.ForeColor = Color.Transparent;
-            label5.Location = new Point(311, 84);
+            label5.Location = new Point(338, 84);
             label5.Name = "label5";
             label5.Size = new Size(223, 40);
             label5.TabIndex = 11;
             label5.Text = "STUDIO GHIBLI";
+            label5.Click += label5_Click;
             // 
             // button3
             // 
@@ -192,6 +206,17 @@
             button3.Text = "Salir";
             button3.UseVisualStyleBackColor = true;
             button3.Click += button3_Click;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Dock = DockStyle.Fill;
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(0, 0);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(879, 524);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex = 13;
+            pictureBox2.TabStop = false;
             // 
             // Menu
             // 
@@ -212,12 +237,15 @@
             Controls.Add(NuevaPeli);
             Controls.Add(dataGridView1);
             Controls.Add(pictureBox1);
+            Controls.Add(pictureBox2);
             ForeColor = Color.FromArgb(64, 64, 64);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Menu";
             Text = "Menu";
             Load += Menu_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -237,5 +265,6 @@
         private Label label4;
         private Label label5;
         private Button button3;
+        private PictureBox pictureBox2;
     }
 }
