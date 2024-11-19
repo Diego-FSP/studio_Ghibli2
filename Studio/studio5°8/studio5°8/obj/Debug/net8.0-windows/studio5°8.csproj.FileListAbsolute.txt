@@ -188,3 +188,8 @@ C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8
 C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\Yamada.jpg
 C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\System.Windows.Extensions.dll
 C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\Interop.WMPLib.dll
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\AxInterop.WMPLib.dll
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\obj\Debug\net8.0-windows\Interop.WMPLib.dll
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\obj\Debug\net8.0-windows\AxInterop.WMPLib.dll
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\obj\Debug\net8.0-windows\studio5°8.csproj.ResolveComReference.cache

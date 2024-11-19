@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             dataGridView1 = new DataGridView();
             NuevaPeli = new Button();
@@ -44,9 +46,11 @@
             label5 = new Label();
             button3 = new Button();
             pictureBox2 = new PictureBox();
+            axWindowsMediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)axWindowsMediaPlayer1).BeginInit();
             SuspendLayout();
             // 
             // dataGridView1
@@ -57,19 +61,32 @@
             dataGridView1.BorderStyle = BorderStyle.None;
             dataGridView1.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = SystemColors.MenuHighlight;
+            dataGridViewCellStyle1.BackColor = SystemColors.GradientActiveCaption;
             dataGridViewCellStyle1.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle1.ForeColor = SystemColors.Window;
-            dataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = SystemColors.Highlight;
+            dataGridViewCellStyle1.ForeColor = SystemColors.InfoText;
+            dataGridViewCellStyle1.SelectionBackColor = SystemColors.GradientActiveCaption;
+            dataGridViewCellStyle1.SelectionForeColor = SystemColors.InfoText;
             dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
             dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.EnableHeadersVisualStyles = false;
-            dataGridView1.GridColor = SystemColors.MenuHighlight;
-            dataGridView1.Location = new Point(137, 218);
+            dataGridView1.GridColor = SystemColors.InactiveCaption;
+            dataGridView1.Location = new Point(137, 220);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.ReadOnly = true;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = SystemColors.Control;
+            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle2.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = SystemColors.ControlDark;
+            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
+            dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridView1.RowHeadersVisible = false;
+            dataGridViewCellStyle3.BackColor = Color.FromArgb(44, 73, 104);
+            dataGridViewCellStyle3.ForeColor = Color.White;
+            dataGridViewCellStyle3.SelectionBackColor = SystemColors.ActiveCaption;
+            dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle3;
             dataGridView1.Size = new Size(601, 184);
             dataGridView1.TabIndex = 0;
             dataGridView1.CellClick += dataGridView1_CellContentClick;
@@ -218,6 +235,15 @@
             pictureBox2.TabIndex = 13;
             pictureBox2.TabStop = false;
             // 
+            // axWindowsMediaPlayer1
+            // 
+            axWindowsMediaPlayer1.Enabled = true;
+            axWindowsMediaPlayer1.Location = new Point(760, 220);
+            axWindowsMediaPlayer1.Name = "axWindowsMediaPlayer1";
+            axWindowsMediaPlayer1.OcxState = (AxHost.State)resources.GetObject("axWindowsMediaPlayer1.OcxState");
+            axWindowsMediaPlayer1.Size = new Size(107, 32);
+            axWindowsMediaPlayer1.TabIndex = 14;
+            // 
             // Menu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -238,14 +264,17 @@
             Controls.Add(dataGridView1);
             Controls.Add(pictureBox1);
             Controls.Add(pictureBox2);
+            Controls.Add(axWindowsMediaPlayer1);
             ForeColor = Color.FromArgb(64, 64, 64);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Menu";
             Text = "Menu";
             Load += Menu_Load;
+            SizeChanged += Tamaño;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)axWindowsMediaPlayer1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -266,5 +295,6 @@
         private Label label5;
         private Button button3;
         private PictureBox pictureBox2;
+        private AxWMPLib.AxWindowsMediaPlayer axWindowsMediaPlayer1;
     }
 }

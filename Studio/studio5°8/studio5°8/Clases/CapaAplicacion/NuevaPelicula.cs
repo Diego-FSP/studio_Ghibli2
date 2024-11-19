@@ -42,8 +42,7 @@ namespace studio5_8
         {
             try
             {
-                int[] fc = { int.Parse(diaC.Text), int.Parse(mesC.Text), int.Parse(AñoC.Text) };
-                int[] fe = { int.Parse(diaE.Text), int.Parse(mesE.Text), int.Parse(anioE.Text) };
+                
 
                 MemoryStream ms = new MemoryStream();
                 Imagen.Image.Save(ms, ImageFormat.Jpeg);
@@ -57,8 +56,8 @@ namespace studio5_8
                     IdPelicula = conexion.CantidadP() + 1,
                     Nombre = textBox1.Text,
                     director = direc.SelectedIndex + 1,
-                    FechaCreacion = fecha(fc),
-                    FechaEstreno = fecha(fe),
+                    FechaCreacion = dateTimePicker1.Value,
+                    FechaEstreno = dateTimePicker2.Value,
                     Duracion = comboBox3.Text + "H " + comboBox4.Text + "m",
                     Genero = comboBox2.Text,
                     Presupuesto = int.Parse(textBox7.Text),
@@ -77,12 +76,7 @@ namespace studio5_8
                 textBox7.Text = "";
                 comboBox2.Text = "";
                 comboBox5.Text = "";
-                diaC.Text = textBox1.Text;
-                diaE.Text = direc.Text;
-                mesC.Text = textBox1.Text;
-                mesE.Text = direc.Text;
-                AñoC.Text = textBox1.Text;
-                anioE.Text = direc.Text;
+                
             }
             catch (Exception j)
             {

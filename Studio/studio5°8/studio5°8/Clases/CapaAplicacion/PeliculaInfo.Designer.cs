@@ -42,18 +42,22 @@
             label2 = new Label();
             label3 = new Label();
             button2 = new Button();
+            pictureBox2 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)Poster).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // nombre
             // 
             nombre.AutoSize = true;
-            nombre.Font = new Font("Calibri", 24.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            nombre.Location = new Point(275, 9);
+            nombre.Font = new Font("Calibri", 24.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            nombre.ForeColor = SystemColors.ButtonFace;
+            nombre.Location = new Point(252, 9);
             nombre.Name = "nombre";
-            nombre.Size = new Size(314, 40);
+            nombre.RightToLeft = RightToLeft.Yes;
+            nombre.Size = new Size(317, 40);
             nombre.TabIndex = 0;
-            nombre.Text = "nombre de la pelicula";
+            nombre.Text = "NOMBRE DE PELICULA";
             nombre.TextAlign = ContentAlignment.TopCenter;
             nombre.Click += nombre_Click;
             // 
@@ -128,7 +132,7 @@
             trama.Font = new Font("Calibri", 9F);
             trama.ImageAlign = ContentAlignment.TopLeft;
             trama.LiveSetting = System.Windows.Forms.Automation.AutomationLiveSetting.Polite;
-            trama.Location = new Point(12, 281);
+            trama.Location = new Point(12, 325);
             trama.Name = "trama";
             trama.Size = new Size(47, 14);
             trama.TabIndex = 6;
@@ -161,6 +165,7 @@
             label1.AutoSize = true;
             label1.BackColor = Color.FromArgb(44, 73, 104);
             label1.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.ForeColor = SystemColors.ButtonFace;
             label1.Location = new Point(179, 54);
             label1.Name = "label1";
             label1.Size = new Size(121, 28);
@@ -208,6 +213,17 @@
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
+            // pictureBox2
+            // 
+            pictureBox2.Dock = DockStyle.Fill;
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(0, 0);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(800, 450);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex = 14;
+            pictureBox2.TabStop = false;
+            // 
             // PeliculaInfo
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -227,10 +243,12 @@
             Controls.Add(id);
             Controls.Add(nombre);
             Controls.Add(button1);
+            Controls.Add(pictureBox2);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "PeliculaInfo";
             Text = "Busqueda";
             ((System.ComponentModel.ISupportInitialize)Poster).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -250,5 +268,6 @@
         private Label label2;
         private Label label3;
         private Button button2;
+        private PictureBox pictureBox2;
     }
 }

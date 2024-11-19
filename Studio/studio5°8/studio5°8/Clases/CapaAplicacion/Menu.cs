@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Configuration;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -132,6 +133,20 @@ namespace studio5_8
         private void label5_Click(object sender, EventArgs e)
         {
 
+        }
+
+        public void Tamaño(object sender, EventArgs e)
+        {
+            int x = this.Size.Width;
+            int y = this.Size.Height;
+            // pantalla predeterminada 895; 563
+
+            // datagriev 601; 184
+
+            //dataGridView1.Size
+
+            // boton 3 762; 476
+            
         }
     }
 }

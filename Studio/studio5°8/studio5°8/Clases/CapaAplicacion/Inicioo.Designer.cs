@@ -112,11 +112,11 @@
             // 
             label3.AutoSize = true;
             label3.BackColor = Color.FromArgb(44, 73, 104);
-            label3.BorderStyle = BorderStyle.FixedSingle;
             label3.Font = new Font("Calibri", 24.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label3.ForeColor = SystemColors.ButtonFace;
             label3.Location = new Point(78, 27);
             label3.Name = "label3";
-            label3.Size = new Size(205, 42);
+            label3.Size = new Size(203, 40);
             label3.TabIndex = 6;
             label3.Text = "INICIA SESIÓN";
             label3.Click += label3_Click;

@@ -41,7 +41,6 @@
             textBox7 = new TextBox();
             label8 = new Label();
             label9 = new Label();
-            label10 = new Label();
             label11 = new Label();
             button1 = new Button();
             button2 = new Button();
@@ -51,12 +50,6 @@
             label13 = new Label();
             comboBox1 = new ComboBox();
             comboBox2 = new ComboBox();
-            diaE = new ComboBox();
-            mesE = new ComboBox();
-            anioE = new ComboBox();
-            diaC = new ComboBox();
-            mesC = new ComboBox();
-            AñoC = new ComboBox();
             comboBox3 = new ComboBox();
             comboBox4 = new ComboBox();
             comboBox5 = new ComboBox();
@@ -65,6 +58,8 @@
             label14 = new Label();
             button3 = new Button();
             Imagen = new PictureBox();
+            dateTimePicker1 = new DateTimePicker();
+            dateTimePicker2 = new DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)Imagen).BeginInit();
@@ -106,8 +101,8 @@
             linkLabel1.AutoSize = true;
             linkLabel1.BackColor = Color.FromArgb(97, 118, 142);
             linkLabel1.Font = new Font("Calibri", 24.75F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point, 0);
-            linkLabel1.ForeColor = Color.Black;
-            linkLabel1.LinkColor = Color.Black;
+            linkLabel1.ForeColor = SystemColors.ButtonFace;
+            linkLabel1.LinkColor = SystemColors.ButtonFace;
             linkLabel1.Location = new Point(302, 9);
             linkLabel1.Name = "linkLabel1";
             linkLabel1.Size = new Size(252, 40);
@@ -121,7 +116,7 @@
             label3.AutoSize = true;
             label3.BackColor = Color.White;
             label3.Font = new Font("Calibri", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.Location = new Point(444, 130);
+            label3.Location = new Point(425, 130);
             label3.Name = "label3";
             label3.Size = new Size(110, 14);
             label3.TabIndex = 5;
@@ -132,7 +127,7 @@
             label4.AutoSize = true;
             label4.BackColor = Color.White;
             label4.Font = new Font("Calibri", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.Location = new Point(445, 93);
+            label4.Location = new Point(426, 93);
             label4.Name = "label4";
             label4.Size = new Size(115, 14);
             label4.TabIndex = 6;
@@ -197,22 +192,11 @@
             label9.AutoSize = true;
             label9.BackColor = Color.White;
             label9.Font = new Font("Calibri", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label9.Location = new Point(444, 166);
+            label9.Location = new Point(425, 166);
             label9.Name = "label9";
             label9.Size = new Size(108, 14);
             label9.TabIndex = 18;
             label9.Text = "PROGRAMA ESTILO:";
-            // 
-            // label10
-            // 
-            label10.AutoSize = true;
-            label10.BackColor = Color.FromArgb(44, 73, 104);
-            label10.Font = new Font("Calibri", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label10.Location = new Point(585, 70);
-            label10.Name = "label10";
-            label10.Size = new Size(119, 14);
-            label10.TabIndex = 25;
-            label10.Text = "Dia    /   Mes   /   Año";
             // 
             // label11
             // 
@@ -261,9 +245,9 @@
             // 
             dataGridView3.BackgroundColor = Color.FromArgb(44, 73, 104);
             dataGridView3.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView3.Location = new Point(435, 67);
+            dataGridView3.Location = new Point(414, 67);
             dataGridView3.Name = "dataGridView3";
-            dataGridView3.Size = new Size(314, 131);
+            dataGridView3.Size = new Size(359, 131);
             dataGridView3.TabIndex = 29;
             // 
             // label12
@@ -311,74 +295,6 @@
             comboBox2.TabIndex = 33;
             comboBox2.SelectedIndexChanged += comboBox2_SelectedIndexChanged;
             // 
-            // diaE
-            // 
-            diaE.AutoCompleteCustomSource.AddRange(new string[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" });
-            diaE.BackColor = Color.FromArgb(224, 224, 224);
-            diaE.FormattingEnabled = true;
-            diaE.Items.AddRange(new object[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31" });
-            diaE.Location = new Point(565, 126);
-            diaE.Name = "diaE";
-            diaE.Size = new Size(42, 23);
-            diaE.TabIndex = 34;
-            // 
-            // mesE
-            // 
-            mesE.AutoCompleteCustomSource.AddRange(new string[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" });
-            mesE.BackColor = Color.FromArgb(224, 224, 224);
-            mesE.FormattingEnabled = true;
-            mesE.Items.AddRange(new object[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12" });
-            mesE.Location = new Point(622, 126);
-            mesE.Name = "mesE";
-            mesE.Size = new Size(42, 23);
-            mesE.TabIndex = 35;
-            // 
-            // anioE
-            // 
-            anioE.AutoCompleteCustomSource.AddRange(new string[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" });
-            anioE.BackColor = Color.FromArgb(224, 224, 224);
-            anioE.FormattingEnabled = true;
-            anioE.Items.AddRange(new object[] { "1984", "1985", "1986", "1987", "1988", "1989", "1990", "1991", "1992", "1993", "1994", "1995", "1996", "1997", "1998", "1999", "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025" });
-            anioE.Location = new Point(680, 126);
-            anioE.Name = "anioE";
-            anioE.Size = new Size(56, 23);
-            anioE.TabIndex = 36;
-            anioE.SelectedIndexChanged += comboBox5_SelectedIndexChanged;
-            // 
-            // diaC
-            // 
-            diaC.AutoCompleteCustomSource.AddRange(new string[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" });
-            diaC.BackColor = Color.FromArgb(224, 224, 224);
-            diaC.FormattingEnabled = true;
-            diaC.Items.AddRange(new object[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31" });
-            diaC.Location = new Point(565, 89);
-            diaC.Name = "diaC";
-            diaC.Size = new Size(42, 23);
-            diaC.TabIndex = 37;
-            // 
-            // mesC
-            // 
-            mesC.AutoCompleteCustomSource.AddRange(new string[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" });
-            mesC.BackColor = Color.FromArgb(224, 224, 224);
-            mesC.FormattingEnabled = true;
-            mesC.Items.AddRange(new object[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12" });
-            mesC.Location = new Point(622, 89);
-            mesC.Name = "mesC";
-            mesC.Size = new Size(42, 23);
-            mesC.TabIndex = 38;
-            // 
-            // AñoC
-            // 
-            AñoC.AutoCompleteCustomSource.AddRange(new string[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" });
-            AñoC.BackColor = Color.FromArgb(224, 224, 224);
-            AñoC.FormattingEnabled = true;
-            AñoC.Items.AddRange(new object[] { "1984", "1985", "1986", "1987", "1988", "1989", "1990", "1991", "1992", "1993", "1994", "1995", "1996", "1997", "1998", "1999", "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025" });
-            AñoC.Location = new Point(680, 89);
-            AñoC.Name = "AñoC";
-            AñoC.Size = new Size(56, 23);
-            AñoC.TabIndex = 39;
-            AñoC.SelectedIndexChanged += comboBox5_SelectedIndexChanged_1;
-            // 
             // comboBox3
             // 
             comboBox3.BackColor = Color.FromArgb(224, 224, 224);
@@ -405,9 +321,9 @@
             comboBox5.BackColor = Color.FromArgb(224, 224, 224);
             comboBox5.FormattingEnabled = true;
             comboBox5.Items.AddRange(new object[] { "2d", "3d" });
-            comboBox5.Location = new Point(565, 162);
+            comboBox5.Location = new Point(539, 162);
             comboBox5.Name = "comboBox5";
-            comboBox5.Size = new Size(70, 23);
+            comboBox5.Size = new Size(68, 23);
             comboBox5.TabIndex = 42;
             // 
             // direc
@@ -463,12 +379,28 @@
             Imagen.TabIndex = 47;
             Imagen.TabStop = false;
             // 
+            // dateTimePicker1
+            // 
+            dateTimePicker1.Location = new Point(547, 88);
+            dateTimePicker1.Name = "dateTimePicker1";
+            dateTimePicker1.Size = new Size(213, 23);
+            dateTimePicker1.TabIndex = 48;
+            // 
+            // dateTimePicker2
+            // 
+            dateTimePicker2.Location = new Point(547, 124);
+            dateTimePicker2.Name = "dateTimePicker2";
+            dateTimePicker2.Size = new Size(213, 23);
+            dateTimePicker2.TabIndex = 49;
+            // 
             // NuevaPelicula
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(97, 118, 142);
             ClientSize = new Size(800, 450);
+            Controls.Add(dateTimePicker2);
+            Controls.Add(dateTimePicker1);
             Controls.Add(Imagen);
             Controls.Add(button3);
             Controls.Add(label14);
@@ -477,19 +409,12 @@
             Controls.Add(comboBox5);
             Controls.Add(comboBox4);
             Controls.Add(comboBox3);
-            Controls.Add(AñoC);
-            Controls.Add(mesC);
-            Controls.Add(diaC);
-            Controls.Add(anioE);
-            Controls.Add(mesE);
-            Controls.Add(diaE);
             Controls.Add(comboBox2);
             Controls.Add(comboBox1);
             Controls.Add(label13);
             Controls.Add(label12);
             Controls.Add(label11);
             Controls.Add(button2);
-            Controls.Add(label10);
             Controls.Add(button1);
             Controls.Add(label9);
             Controls.Add(label8);
@@ -530,7 +455,6 @@
         private TextBox textBox7;
         private Label label8;
         private Label label9;
-        private Label label10;
         private Label label11;
         private Button button1;
         private Button button2;
@@ -540,12 +464,6 @@
         private Label label13;
         private ComboBox comboBox1;
         private ComboBox comboBox2;
-        private ComboBox diaE;
-        private ComboBox mesE;
-        private ComboBox anioE;
-        private ComboBox diaC;
-        private ComboBox mesC;
-        private ComboBox AñoC;
         private ComboBox comboBox3;
         private ComboBox comboBox4;
         private ComboBox comboBox5;
@@ -554,5 +472,7 @@
         private Label label14;
         private Button button3;
         private PictureBox Imagen;
+        private DateTimePicker dateTimePicker1;
+        private DateTimePicker dateTimePicker2;
     }
 }
