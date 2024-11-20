@@ -46,17 +46,18 @@
             label5 = new Label();
             button3 = new Button();
             pictureBox2 = new PictureBox();
-            axWindowsMediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
+            mFondo = new AxWMPLib.AxWindowsMediaPlayer();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)axWindowsMediaPlayer1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)mFondo).BeginInit();
             SuspendLayout();
             // 
             // dataGridView1
             // 
             dataGridView1.AllowUserToAddRows = false;
             dataGridView1.AllowUserToDeleteRows = false;
+            dataGridView1.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.DisplayedCells;
             dataGridView1.BackgroundColor = Color.FromArgb(44, 73, 104);
             dataGridView1.BorderStyle = BorderStyle.None;
             dataGridView1.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
@@ -68,7 +69,7 @@
             dataGridViewCellStyle1.SelectionForeColor = SystemColors.InfoText;
             dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
             dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.ColumnHeadersHeight = 30;
             dataGridView1.EnableHeadersVisualStyles = false;
             dataGridView1.GridColor = SystemColors.InactiveCaption;
             dataGridView1.Location = new Point(137, 220);
@@ -235,14 +236,14 @@
             pictureBox2.TabIndex = 13;
             pictureBox2.TabStop = false;
             // 
-            // axWindowsMediaPlayer1
+            // mFondo
             // 
-            axWindowsMediaPlayer1.Enabled = true;
-            axWindowsMediaPlayer1.Location = new Point(760, 220);
-            axWindowsMediaPlayer1.Name = "axWindowsMediaPlayer1";
-            axWindowsMediaPlayer1.OcxState = (AxHost.State)resources.GetObject("axWindowsMediaPlayer1.OcxState");
-            axWindowsMediaPlayer1.Size = new Size(107, 32);
-            axWindowsMediaPlayer1.TabIndex = 14;
+            mFondo.Enabled = true;
+            mFondo.Location = new Point(578, 182);
+            mFondo.Name = "mFondo";
+            mFondo.OcxState = (AxHost.State)resources.GetObject("mFondo.OcxState");
+            mFondo.Size = new Size(212, 32);
+            mFondo.TabIndex = 14;
             // 
             // Menu
             // 
@@ -264,7 +265,7 @@
             Controls.Add(dataGridView1);
             Controls.Add(pictureBox1);
             Controls.Add(pictureBox2);
-            Controls.Add(axWindowsMediaPlayer1);
+            Controls.Add(mFondo);
             ForeColor = Color.FromArgb(64, 64, 64);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Menu";
@@ -274,7 +275,7 @@
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)axWindowsMediaPlayer1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)mFondo).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -295,6 +296,6 @@
         private Label label5;
         private Button button3;
         private PictureBox pictureBox2;
-        private AxWMPLib.AxWindowsMediaPlayer axWindowsMediaPlayer1;
+        private AxWMPLib.AxWindowsMediaPlayer mFondo;
     }
 }

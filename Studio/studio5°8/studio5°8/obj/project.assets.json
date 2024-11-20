@@ -1605,19 +1605,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lab15-PC01\\.nuget\\packages\\": {}
+    "C:\\Users\\Diego Fabricio\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\studio_Ghibli2\\Studio\\studio5°8\\studio5°8\\studio5°8.csproj",
+      "projectUniqueName": "C:\\Users\\Diego Fabricio\\Documents\\GitHub\\studio_Ghibli2\\Studio\\studio5°8\\studio5°8\\studio5°8.csproj",
       "projectName": "studio5°8",
-      "projectPath": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\studio_Ghibli2\\Studio\\studio5°8\\studio5°8\\studio5°8.csproj",
-      "packagesPath": "C:\\Users\\Lab15-PC01\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\studio_Ghibli2\\Studio\\studio5°8\\studio5°8\\obj\\",
+      "projectPath": "C:\\Users\\Diego Fabricio\\Documents\\GitHub\\studio_Ghibli2\\Studio\\studio5°8\\studio5°8\\studio5°8.csproj",
+      "packagesPath": "C:\\Users\\Diego Fabricio\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Diego Fabricio\\Documents\\GitHub\\studio_Ghibli2\\Studio\\studio5°8\\studio5°8\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Lab15-PC01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Diego Fabricio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1625,7 +1630,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1677,7 +1681,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

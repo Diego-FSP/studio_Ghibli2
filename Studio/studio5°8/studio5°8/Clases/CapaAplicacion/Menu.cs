@@ -27,15 +27,23 @@ namespace studio5_8
             //DataGridViewTextBoxColumn n = negocios.ListaPeli().Columns.;
             Actualizar();
             conex = conexion;
-
+            mFondo.settings.playCount = 999;
+            mFondo.Ctlcontrols.play();
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            info.Show();
-            seleccion = int.Parse(dataGridView1.Rows[e.RowIndex].Cells["IDPelicula"].Value.ToString());
-            info.Text = "Informacion ID: " + seleccion;
-            textBox1.Text = dataGridView1.Rows[e.RowIndex].Cells["IDPelicula"].Value.ToString();
+            try
+            {
+                seleccion = int.Parse(dataGridView1.Rows[e.RowIndex].Cells["IDPelicula"].Value.ToString());
+                info.Text = "Informacion ID: " + seleccion;
+                textBox1.Text = dataGridView1.Rows[e.RowIndex].Cells["IDPelicula"].Value.ToString();
+                info.Show();
+            }
+            catch
+            {
+                seleccion = 0;
+            }
         }
 
         private void NuevaPeli_Click(object sender, EventArgs e)
@@ -83,6 +91,22 @@ namespace studio5_8
             }
         }
 
+        public void Tamaño(object sender, EventArgs e)
+        {
+            int X = this.Size.Width;
+            int Y = this.Size.Height;
+            // Location 137; 220
+            // Size 601; 184
+            //dataGridView1.Location = new System.Drawing.Point(X/2 - 310, Y/2 - 64);
+            dataGridView1.Size = new System.Drawing.Size(X - 294, 184 + (Y / 563));
+            pictureBox1.Size = new System.Drawing.Size(X - 40, 143);
+            button3.Location = new System.Drawing.Point(X - 133, Y - 87);
+            // Location 633; 423
+            button1.Location = new System.Drawing.Point(dataGridView1.Size.Width + 137 - 102, dataGridView1.Size.Height + 239);
+            // 391; 423
+            info.Location = new System.Drawing.Point(dataGridView1.Size.Width/2 + 137 - (102/2), dataGridView1.Size.Height + 239);
+        }
+
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -128,6 +152,7 @@ namespace studio5_8
         {
             conex.conex.Close();
             this.Close();
+            Application.Exit();
         }
 
         private void label5_Click(object sender, EventArgs e)
@@ -135,18 +160,5 @@ namespace studio5_8
 
         }
 
-        public void Tamaño(object sender, EventArgs e)
-        {
-            int x = this.Size.Width;
-            int y = this.Size.Height;
-            // pantalla predeterminada 895; 563
-
-            // datagriev 601; 184
-
-            //dataGridView1.Size
-
-            // boton 3 762; 476
-            
-        }
     }
 }

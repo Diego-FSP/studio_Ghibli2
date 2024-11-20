@@ -193,3 +193,34 @@ C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8
 C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\obj\Debug\net8.0-windows\Interop.WMPLib.dll
 C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\obj\Debug\net8.0-windows\AxInterop.WMPLib.dll
 C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\obj\Debug\net8.0-windows\studio5°8.csproj.ResolveComReference.cache
+C:\Users\Diego Fabricio\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\Amapolas.jpg
+C:\Users\Diego Fabricio\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\aretty.jpg
+C:\Users\Diego Fabricio\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\chihiro.png
+C:\Users\Diego Fabricio\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\CuentosTerramar.jpg
+C:\Users\Diego Fabricio\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\Earwing y la bruja.jpg
+C:\Users\Diego Fabricio\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\ELCASTILLOAMBULANTE.jpg
+C:\Users\Diego Fabricio\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\escucharMar.jpg
+C:\Users\Diego Fabricio\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\haru.jpg
+C:\Users\Diego Fabricio\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\kaguya.jpg
+C:\Users\Diego Fabricio\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\KIKI.jpg
+C:\Users\Diego Fabricio\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\LaprincesaMononoke.jpg
+C:\Users\Diego Fabricio\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\luciernagas.jpg
+C:\Users\Diego Fabricio\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\MARNIE.jpg
+C:\Users\Diego Fabricio\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\Nausicaaa_delValle.jpg
+C:\Users\Diego Fabricio\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\Pompoko.jpg
+C:\Users\Diego Fabricio\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\Ponyo.jpg
+C:\Users\Diego Fabricio\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\porco rosso.jpg
+C:\Users\Diego Fabricio\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\Recuerdos del ayer.jpg
+C:\Users\Diego Fabricio\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\Susurros.jpg
+C:\Users\Diego Fabricio\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\TOTOROOOO.jpg
+C:\Users\Diego Fabricio\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\VientoLevanta.jpg
+C:\Users\Diego Fabricio\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\Yamada.jpg
+C:\Users\Diego Fabricio\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\System.Windows.Extensions.dll
+C:\Users\Diego Fabricio\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+C:\Users\Diego Fabricio\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\Interop.WMPLib.dll
+C:\Users\Diego Fabricio\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\AxInterop.WMPLib.dll
+C:\Users\Diego Fabricio\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\obj\Debug\net8.0-windows\Interop.WMPLib.dll
+C:\Users\Diego Fabricio\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\obj\Debug\net8.0-windows\AxInterop.WMPLib.dll
+C:\Users\Diego Fabricio\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\obj\Debug\net8.0-windows\studio5°8.csproj.ResolveComReference.cache
+C:\Users\Diego Fabricio\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\obj\Debug\net8.0-windows\studio5_8.Clases.CapaAplicacion.PeliculaInfo.resources
+C:\Users\Diego Fabricio\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\Resources\Scrooge's Office.mp3

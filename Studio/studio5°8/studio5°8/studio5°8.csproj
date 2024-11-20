@@ -108,6 +108,9 @@
     <None Update="Recuerdos del ayer.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="Resources\Scrooge%27s Office.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Susurros.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
