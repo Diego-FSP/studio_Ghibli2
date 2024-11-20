@@ -68,5 +68,22 @@ namespace studio5_8.Clases.CapaAplicacion
         {
 
         }
+
+        public void Tamaño(object sender, EventArgs e)
+        {
+            int X = this.Size.Width;
+            int Y = this.Size.Height;
+
+            // Location 137; 220
+            // Size 408; 244
+            //dataGridView1.Location = new System.Drawing.Point(X/2 - 310, Y/2 - 64);
+            //dataGridView1.Size = new System.Drawing.Size(X - 294, 184 + (Y / 563));
+            //pictureBox1.Size = new System.Drawing.Size(X - 40, 143);
+            //button3.Location = new System.Drawing.Point(X - 133, Y - 87);
+            // Location 633; 423
+            //button1.Location = new System.Drawing.Point(dataGridView1.Size.Width + 137 - 102, dataGridView1.Size.Height + 239);
+            // 391; 423
+            //info.Location = new System.Drawing.Point(dataGridView1.Size.Width / 2 + 137 - (102 / 2), dataGridView1.Size.Height + 239);
+        }
     }
 }

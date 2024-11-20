@@ -60,9 +60,13 @@
             Imagen = new PictureBox();
             dateTimePicker1 = new DateTimePicker();
             dateTimePicker2 = new DateTimePicker();
+            pictureBox1 = new PictureBox();
+            pictureBox2 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)Imagen).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -103,7 +107,7 @@
             linkLabel1.Font = new Font("Calibri", 24.75F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point, 0);
             linkLabel1.ForeColor = SystemColors.ButtonFace;
             linkLabel1.LinkColor = SystemColors.ButtonFace;
-            linkLabel1.Location = new Point(302, 9);
+            linkLabel1.Location = new Point(281, 9);
             linkLabel1.Name = "linkLabel1";
             linkLabel1.Size = new Size(252, 40);
             linkLabel1.TabIndex = 4;
@@ -381,6 +385,8 @@
             // 
             // dateTimePicker1
             // 
+            dateTimePicker1.CalendarMonthBackground = SystemColors.MenuHighlight;
+            dateTimePicker1.CalendarTitleBackColor = SystemColors.MenuHighlight;
             dateTimePicker1.Location = new Point(547, 88);
             dateTimePicker1.Name = "dateTimePicker1";
             dateTimePicker1.Size = new Size(213, 23);
@@ -393,15 +399,39 @@
             dateTimePicker2.Size = new Size(213, 23);
             dateTimePicker2.TabIndex = 49;
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Dock = DockStyle.Fill;
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(0, 0);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(800, 450);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 50;
+            pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(686, 204);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(126, 124);
+            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox2.TabIndex = 51;
+            pictureBox2.TabStop = false;
+            // 
             // NuevaPelicula
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(97, 118, 142);
             ClientSize = new Size(800, 450);
+            Controls.Add(Imagen);
+            Controls.Add(button1);
+            Controls.Add(pictureBox2);
             Controls.Add(dateTimePicker2);
             Controls.Add(dateTimePicker1);
-            Controls.Add(Imagen);
             Controls.Add(button3);
             Controls.Add(label14);
             Controls.Add(textBox2);
@@ -415,7 +445,6 @@
             Controls.Add(label12);
             Controls.Add(label11);
             Controls.Add(button2);
-            Controls.Add(button1);
             Controls.Add(label9);
             Controls.Add(label8);
             Controls.Add(textBox7);
@@ -430,6 +459,7 @@
             Controls.Add(label1);
             Controls.Add(dataGridView2);
             Controls.Add(dataGridView3);
+            Controls.Add(pictureBox1);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "NuevaPelicula";
             Text = "nueva Peli";
@@ -437,6 +467,8 @@
             ((System.ComponentModel.ISupportInitialize)dataGridView2).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView3).EndInit();
             ((System.ComponentModel.ISupportInitialize)Imagen).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -474,5 +506,7 @@
         private PictureBox Imagen;
         private DateTimePicker dateTimePicker1;
         private DateTimePicker dateTimePicker2;
+        private PictureBox pictureBox1;
+        private PictureBox pictureBox2;
     }
 }

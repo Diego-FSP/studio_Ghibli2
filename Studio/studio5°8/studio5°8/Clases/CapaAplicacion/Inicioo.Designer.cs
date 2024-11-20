@@ -37,6 +37,7 @@
             dataGridView1 = new DataGridView();
             label3 = new Label();
             pictureBox2 = new PictureBox();
+            Salir = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
@@ -132,12 +133,24 @@
             pictureBox2.TabIndex = 8;
             pictureBox2.TabStop = false;
             // 
+            // Salir
+            // 
+            Salir.ForeColor = SystemColors.ControlText;
+            Salir.Location = new Point(144, 290);
+            Salir.Name = "Salir";
+            Salir.Size = new Size(75, 23);
+            Salir.TabIndex = 9;
+            Salir.Text = "Salir";
+            Salir.UseVisualStyleBackColor = true;
+            Salir.Click += Salir_Click;
+            // 
             // Inicioo
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(211, 238, 152);
             ClientSize = new Size(589, 325);
+            Controls.Add(Salir);
             Controls.Add(label3);
             Controls.Add(textBox2);
             Controls.Add(label2);
@@ -146,6 +159,7 @@
             Controls.Add(button1);
             Controls.Add(dataGridView1);
             Controls.Add(pictureBox2);
+            FormBorderStyle = FormBorderStyle.Fixed3D;
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Inicioo";
             Text = "Iniciar Secion";
@@ -165,5 +179,6 @@
         private DataGridView dataGridView1;
         private Label label3;
         private PictureBox pictureBox2;
+        private Button Salir;
     }
 }

@@ -22,7 +22,7 @@ namespace studio5_8
     {
         PeliculaCN conexion;
         DirectorCN director;
-        string[] Generos = { "Acción", "Animación", "Aventuras", "Bélico", "Biográfico", "Ciencia ficción", "Comedia", "Documental", "Drama", "Erótico", "Espionaje", "Fantástico", "Histórico", "Mudo", "Musical", "Negro Policíaco", "Suspense", "Terror" };
+
         public NuevaPelicula(Conexion conex)
         {
 
@@ -42,7 +42,7 @@ namespace studio5_8
         {
             try
             {
-                
+
 
                 MemoryStream ms = new MemoryStream();
                 Imagen.Image.Save(ms, ImageFormat.Jpeg);
@@ -76,14 +76,22 @@ namespace studio5_8
                 textBox7.Text = "";
                 comboBox2.Text = "";
                 comboBox5.Text = "";
-                
+                Imagen.Image = Image.FromFile("carga.gif");
             }
             catch (Exception j)
             {
+                string excusa = j.ToString();
+                string PQ = "";
+                if (excusa.Contains("System.NullReferenceException: Object reference not set to an instance of an object."))
+                    PQ = "Faltan Datos";
+                else
+                if (excusa.Contains("System.FormatException: The input string"))
+                    PQ = "El formato es incorrecto";
 
-                MessageBox.Show("No se agrego Pelicula" + j);
+                MessageBox.Show("No se agrego Pelicula: " + PQ);
             }
         }
+
         public DateTime fecha(int[] f)
         {
             Console.ForegroundColor = ConsoleColor.White;
@@ -176,6 +184,16 @@ namespace studio5_8
         }
 
         private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
         {
 
         }

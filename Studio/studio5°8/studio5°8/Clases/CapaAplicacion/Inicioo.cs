@@ -1,13 +1,15 @@
 using studio5_8.Clases.CapaDatos;
+using System.Media;
 namespace studio5_8
 {
     public partial class Inicioo : Form
     {
         Menu menu;
+        SoundPlayer Fondo = new SoundPlayer("Resources/Scrooge_s-Office.wav");
         public Inicioo()
         {
             InitializeComponent();
-
+            Fondo.PlayLooping();
             //BackColor = Color.FromArgb(121, 134, 69);
         }
 
@@ -27,6 +29,7 @@ namespace studio5_8
             bd.establecerConexion();
             if (bd.E)
             {
+                Fondo.Stop();
                 menu = new Menu(bd);
                 menu.Show();
             }
@@ -50,6 +53,12 @@ namespace studio5_8
         private void label2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Salir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Application.Exit();
         }
     }
 }

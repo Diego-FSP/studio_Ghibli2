@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Drawing.Configuration;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -20,6 +21,7 @@ namespace studio5_8
         Conexion conex;
         PeliculaCN negocios;
         int seleccion = 0;
+        SoundPlayer boton = new SoundPlayer("Resources/boton.wav");
         public Menu(Conexion conexion)
         {
             InitializeComponent();
@@ -35,6 +37,7 @@ namespace studio5_8
         {
             try
             {
+                boton.Play();
                 seleccion = int.Parse(dataGridView1.Rows[e.RowIndex].Cells["IDPelicula"].Value.ToString());
                 info.Text = "Informacion ID: " + seleccion;
                 textBox1.Text = dataGridView1.Rows[e.RowIndex].Cells["IDPelicula"].Value.ToString();
