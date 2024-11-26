@@ -60,5 +60,43 @@ namespace studio5_8
             this.Close();
             Application.Exit();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(@"Equipo de Proyecto:
+
+	Desarrollador: Diego Silupu
+	Diseñadora: Keila Mateo
+	Investigadores: Keila y Diego
+
+Herramientas utilizadas:
+
+	. Visual Studio y Mysql
+	. Lenguaje de programacion: C#
+	. Diseño: Paint y Adobe Flash
+
+Inspiracion o Referencias:
+
+	. Inspirado en las peliculas del Studio Ghibli 
+	. Pagina ofical del estudio de peliculas
+
+Colaboradores:
+
+    Profesores:
+
+	. Claudio Viacava 
+	. Luis Duran
+ 
+    Compañeros:
+
+	. Francisco Garcia 
+	. Geraldine Vargas
+	. Aylen Toledo
+
+Recursos Y Licencias:
+
+	. En nuestro proyecto se utilizaron imagenes y musica del Studio Ghibli, de pinterest 
+	. Iconos y fuentes de informacion fueron utilizados de 'https://www.ghibli.jp/'");
+        }
     }
 }

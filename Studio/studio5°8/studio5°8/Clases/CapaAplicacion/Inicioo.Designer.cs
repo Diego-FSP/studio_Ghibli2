@@ -38,6 +38,7 @@
             label3 = new Label();
             pictureBox2 = new PictureBox();
             Salir = new Button();
+            button4 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
@@ -144,12 +145,23 @@
             Salir.UseVisualStyleBackColor = true;
             Salir.Click += Salir_Click;
             // 
+            // button4
+            // 
+            button4.Location = new Point(496, 12);
+            button4.Name = "button4";
+            button4.Size = new Size(81, 25);
+            button4.TabIndex = 17;
+            button4.Text = "Creditos";
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
+            // 
             // Inicioo
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(211, 238, 152);
             ClientSize = new Size(589, 325);
+            Controls.Add(button4);
             Controls.Add(Salir);
             Controls.Add(label3);
             Controls.Add(textBox2);
@@ -180,5 +192,6 @@
         private Label label3;
         private PictureBox pictureBox2;
         private Button Salir;
+        private Button button4;
     }
 }

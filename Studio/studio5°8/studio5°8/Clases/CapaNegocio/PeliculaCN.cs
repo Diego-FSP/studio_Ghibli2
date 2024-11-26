@@ -40,5 +40,10 @@ public class PeliculaCN
         {
             return PeliDAO.DatosPeli(p);
         }
+
+        public PeliculaCE infoPeli(string p)
+        {
+            return PeliDAO.DatosPeli(p);
+        }
     }
 }

@@ -219,9 +219,9 @@
             // 
             // button3
             // 
-            button3.Location = new Point(762, 476);
+            button3.Location = new Point(773, 486);
             button3.Name = "button3";
-            button3.Size = new Size(105, 36);
+            button3.Size = new Size(94, 26);
             button3.TabIndex = 12;
             button3.Text = "Salir";
             button3.UseVisualStyleBackColor = true;
@@ -251,9 +251,9 @@
             // pictureBox3
             // 
             pictureBox3.Image = Properties.Resources.volume;
-            pictureBox3.Location = new Point(12, 470);
+            pictureBox3.Location = new Point(12, 486);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(39, 42);
+            pictureBox3.Size = new Size(29, 26);
             pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox3.TabIndex = 15;
             pictureBox3.TabStop = false;
