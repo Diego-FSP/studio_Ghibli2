@@ -329,6 +329,7 @@
             comboBox5.Name = "comboBox5";
             comboBox5.Size = new Size(68, 23);
             comboBox5.TabIndex = 42;
+            comboBox5.SelectedIndexChanged += comboBox5_SelectedIndexChanged_2;
             // 
             // direc
             // 

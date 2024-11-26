@@ -182,9 +182,9 @@
             label2.LiveSetting = System.Windows.Forms.Automation.AutomationLiveSetting.Polite;
             label2.Location = new Point(90, 191);
             label2.Name = "label2";
-            label2.Size = new Size(110, 14);
+            label2.Size = new Size(113, 14);
             label2.TabIndex = 11;
-            label2.Text = "FECHA DE ESTRENO:";
+            label2.Text = "FECHA DE ESTRENO: ";
             label2.TextAlign = ContentAlignment.TopCenter;
             label2.Click += label2_Click;
             // 
@@ -197,9 +197,9 @@
             label3.LiveSetting = System.Windows.Forms.Automation.AutomationLiveSetting.Polite;
             label3.Location = new Point(90, 224);
             label3.Name = "label3";
-            label3.Size = new Size(115, 14);
+            label3.Size = new Size(118, 14);
             label3.TabIndex = 12;
-            label3.Text = "FECHA DE CREACION:";
+            label3.Text = "FECHA DE CREACION: ";
             label3.TextAlign = ContentAlignment.TopCenter;
             // 
             // button2

@@ -229,3 +229,6 @@ C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8
 C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\Resources\千与千寻 主题曲.mp3
 C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\Resources\Scrooge_s-Office.wav
 C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\Resources\boton.wav
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\Resources\千与千寻-主题曲.wav
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\Resources\Silencio.jpg
+C:\Users\Lab15-PC01\Documents\GitHub\studio_Ghibli2\Studio\studio5°8\studio5°8\bin\Debug\net8.0-windows\Resources\volume.png

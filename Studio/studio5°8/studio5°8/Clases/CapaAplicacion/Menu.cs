@@ -21,7 +21,8 @@ namespace studio5_8
         Conexion conex;
         PeliculaCN negocios;
         int seleccion = 0;
-        SoundPlayer boton = new SoundPlayer("Resources/boton.wav");
+        bool musica = true;
+        SoundPlayer Fondo = new SoundPlayer("Resources/千与千寻-主题曲.wav");
         public Menu(Conexion conexion)
         {
             InitializeComponent();
@@ -29,15 +30,15 @@ namespace studio5_8
             //DataGridViewTextBoxColumn n = negocios.ListaPeli().Columns.;
             Actualizar();
             conex = conexion;
-            mFondo.settings.playCount = 999;
-            mFondo.Ctlcontrols.play();
+            mFondo.settings.volume = 100;
+            Fondo.PlayLooping();
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             try
             {
-                boton.Play();
+                mFondo.Ctlcontrols.play();
                 seleccion = int.Parse(dataGridView1.Rows[e.RowIndex].Cells["IDPelicula"].Value.ToString());
                 info.Text = "Informacion ID: " + seleccion;
                 textBox1.Text = dataGridView1.Rows[e.RowIndex].Cells["IDPelicula"].Value.ToString();
@@ -107,7 +108,7 @@ namespace studio5_8
             // Location 633; 423
             button1.Location = new System.Drawing.Point(dataGridView1.Size.Width + 137 - 102, dataGridView1.Size.Height + 239);
             // 391; 423
-            info.Location = new System.Drawing.Point(dataGridView1.Size.Width/2 + 137 - (102/2), dataGridView1.Size.Height + 239);
+            info.Location = new System.Drawing.Point(dataGridView1.Size.Width / 2 + 137 - (102 / 2), dataGridView1.Size.Height + 239);
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -163,5 +164,20 @@ namespace studio5_8
 
         }
 
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            if (musica == true)
+            {
+                Fondo.Stop();
+                musica = false;
+                pictureBox3.Image = Image.FromFile("Resources/Silencio.jpg");
+            }
+            else
+            {
+                Fondo.PlayLooping();
+                musica = true;
+                pictureBox3.Image = Image.FromFile("Resources/volume.png");
+            }
+        }
     }
 }

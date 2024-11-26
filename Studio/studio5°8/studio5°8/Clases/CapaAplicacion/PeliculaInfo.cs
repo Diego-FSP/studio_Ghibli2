@@ -29,6 +29,8 @@ namespace studio5_8.Clases.CapaAplicacion
             director.Text += directorCN.nombreD(int.Parse(info.Rows[0]["id_director"].ToString()));
             Descripcion.Text += info.Rows[0]["descripcion"].ToString();
             Genero.Text += info.Rows[0]["genero"].ToString();
+            label2.Text += info.Rows[0]["fecha_estreno"].ToString();
+            label3.Text += info.Rows[0]["fecha_creacion"].ToString();
 
             try
             {

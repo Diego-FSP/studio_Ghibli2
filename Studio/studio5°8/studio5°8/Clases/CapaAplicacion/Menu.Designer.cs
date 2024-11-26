@@ -47,10 +47,12 @@
             button3 = new Button();
             pictureBox2 = new PictureBox();
             mFondo = new AxWMPLib.AxWindowsMediaPlayer();
+            pictureBox3 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)mFondo).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             SuspendLayout();
             // 
             // dataGridView1
@@ -239,11 +241,23 @@
             // mFondo
             // 
             mFondo.Enabled = true;
-            mFondo.Location = new Point(578, 182);
+            mFondo.Location = new Point(643, 263);
             mFondo.Name = "mFondo";
             mFondo.OcxState = (AxHost.State)resources.GetObject("mFondo.OcxState");
-            mFondo.Size = new Size(212, 32);
+            mFondo.Size = new Size(224, 32);
             mFondo.TabIndex = 14;
+            mFondo.Visible = false;
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.Image = Properties.Resources.volume;
+            pictureBox3.Location = new Point(12, 470);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(39, 42);
+            pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox3.TabIndex = 15;
+            pictureBox3.TabStop = false;
+            pictureBox3.Click += pictureBox3_Click;
             // 
             // Menu
             // 
@@ -251,6 +265,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(97, 118, 142);
             ClientSize = new Size(879, 524);
+            Controls.Add(pictureBox3);
             Controls.Add(button3);
             Controls.Add(label5);
             Controls.Add(label4);
@@ -276,6 +291,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)mFondo).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -297,5 +313,6 @@
         private Button button3;
         private PictureBox pictureBox2;
         private AxWMPLib.AxWindowsMediaPlayer mFondo;
+        private PictureBox pictureBox3;
     }
 }

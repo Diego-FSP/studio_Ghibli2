@@ -118,22 +118,25 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="totoro" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\totoro.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icono" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icono.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="carga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\carga.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ghibli_collection_fb" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ghibli_collection_fb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="xd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\xd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icono" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icono.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="totoro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\totoro.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="BTQ_StudioGhibli_CollectionBanner" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BTQ_StudioGhibli_CollectionBanner.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="carga" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\carga.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="xd" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\xd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="volume" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\volume.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
